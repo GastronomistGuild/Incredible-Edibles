@@ -1,0 +1,12 @@
+{
+  "type": "content",
+  "textureSize": 32,
+  "name": "The Mighty Walnut",
+  "version": "1.3.0",
+  "networkVersion": "1.3.0",
+  "description": "Making walnuts as much food as lumber.",
+  "modID": "mightywalnut",
+  "authors": ["Whiskey Sunshine"],
+  "contributors": ["AllegroSky"],
+  "dependencies": { "game": "1.22.0" }
+}
