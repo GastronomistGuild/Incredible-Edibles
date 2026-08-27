@@ -1,45 +1,45 @@
 [
     {
         "op": "addeach",
-        "file": "expandedfoods:recipes/mixing/yogurtmeal.json",
+        "file": "efmealsmodule:recipes/mixing/yogurtmeal.json",
         "path": "/ingredients/0/validStacks/-",
         "value": [
-            {"type": "item", "code": "expandedfoods:yogurt-walnut",  "shapeElement": "bowl/yogurt/*", "textureMapping": ["liquid", "yogurtwalnut"]}
+            {"type": "item", "code": "efmealsmodule:yogurt-walnut",  "shapeElement": "bowl/yogurt/*", "textureMapping": ["liquid", "yogurtwalnut"]}
         ],
         "side": "Server",
-        "dependsOn": [{"modid": "expandedfoods"}]
+        "dependsOn": [{"modid": "efmealsmodule"}]
     },
     {
         "op": "addeach",
-        "file": "expandedfoods:recipes/mixing/yogurtmeal.json",
+        "file": "efmealsmodule:recipes/mixing/yogurtmeal.json",
         "path": "/ingredients/7/validStacks/-",
         "value": [
             {"type": "item", "code": "mightywalnut:walnut-shelled",  "shapeElement": "bowl/nuts 1/*", "textureMapping": ["acorns", "group15"]},
             {"type": "item", "code": "mightywalnut:walnut-roasted",  "shapeElement": "bowl/nuts 1/*", "textureMapping": ["acorns", "group15"]}
         ],
         "side": "Server",
-        "dependsOn": [{"modid": "expandedfoods"}]
+        "dependsOn": [{"modid": "efmealsmodule"}]
     },
     {
         "op": "addeach",
-        "file": "expandedfoods:recipes/mixing/yogurtmeal.json",
+        "file": "efmealsmodule:recipes/mixing/yogurtmeal.json",
         "path": "/ingredients/8/validStacks/-",
         "value": [
             {"type": "item", "code": "mightywalnut:walnut-shelled",  "shapeElement": "bowl/nuts 2/*", "textureMapping": ["acorns", "peanut"]},
             {"type": "item", "code": "mightywalnut:walnut-roasted",  "shapeElement": "bowl/nuts 2/*", "textureMapping": ["acorns", "peanut"]}
         ],
         "side": "Server",
-        "dependsOn": [{"modid": "expandedfoods"}]
+        "dependsOn": [{"modid": "efmealsmodule"}]
     },
     {
         "op": "addeach",
-        "file": "expandedfoods:recipes/mixing/yogurtmeal.json",
+        "file": "efmealsmodule:recipes/mixing/yogurtmeal.json",
         "path": "/ingredients/9/validStacks/-",
         "value": [
-            {"type": "item", "code": "expandedfoods:treesyrupportion-walnut",  "shapeElement": "bowl/topping/*", "textureMapping": ["topping", "walnutsyrup"]},
-            {"type": "item", "code": "expandedfoods:gelatin-walnut",  "shapeElement": "bowl/topping/*", "textureMapping": ["topping", "gelatinwalnut"]}
+            {"type": "item", "code": "efmealsmodule:treesyrupportion-walnut",  "shapeElement": "bowl/topping/*", "textureMapping": ["topping", "walnutsyrup"]},
+            {"type": "item", "code": "efmealsmodule:gelatin-walnut",  "shapeElement": "bowl/topping/*", "textureMapping": ["topping", "gelatinwalnut"]}
         ],
         "side": "Server",
-        "dependsOn": [{"modid": "expandedfoods"}]
+        "dependsOn": [{"modid": "efmealsmodule"}]
     }
 ]

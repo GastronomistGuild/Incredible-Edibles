@@ -8,7 +8,7 @@
             { "type": "item", "code": "mightywalnut:walnut-roasted", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "vegetable", "group15" ]}
         ],
         "side": "Server",
-        "dependsOn": [{"modid": "expandedfoods"}]
+        "dependsOn": [{"modid": "efmealsmodule"}]
     },
     {
         "op": "addeach",
@@ -19,7 +19,7 @@
             { "type": "item", "code": "mightywalnut:walnut-roasted", "shapeElement": "bowl/vegetable 2/*", "textureMapping": [ "vegetable", "peanut" ]}
         ],
         "side": "Server",
-        "dependsOn": [{"modid": "expandedfoods"}]
+        "dependsOn": [{"modid": "efmealsmodule"}]
     },
     {
         "op": "addeach",
@@ -30,7 +30,7 @@
             {"type": "item", "code": "mightywalnut:walnut-roasted",  "shapeElement": "bowl/nuts 1/*", "textureMapping": ["acorns", "group15"]}
         ],
         "side": "Server",
-        "dependsOn": [{"modid": "expandedfoods"}]
+        "dependsOn": [{"modid": "efmealsmodule"}]
     },
     {
         "op": "addeach",
@@ -41,6 +41,6 @@
             {"type": "item", "code": "mightywalnut:walnut-roasted",  "shapeElement": "bowl/nuts 2/*", "textureMapping": ["acorns", "peanut"]}
         ],
         "side": "Server",
-        "dependsOn": [{"modid": "expandedfoods"}]
+        "dependsOn": [{"modid": "efmealsmodule"}]
     }
 ]
