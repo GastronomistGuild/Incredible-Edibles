@@ -1,0 +1,196 @@
+{
+    //Item Names
+
+    "item-fruit-ebony": "Ebony fruit",
+    "item-juiceportion-ebony": "Ebony fruit juice",
+    "incontainer-item-juiceportion-ebony": "Ebony fruit juice",
+    "item-ciderportion-ebony": "Ebony fruit cider",
+    "incontainer-item-ciderportion-ebony": "Ebony fruit cider",
+    "item-spiritportion-ebony": "Ebony fruit brandy",
+    "incontainer-item-spiritportion-ebony": "Ebony fruit brandy",
+    "item-pressedmash-ebony-dry": "Dry ebony fruit mash",
+    "item-pressedmash-ebony-wet": "Wet ebony fruit mash",
+
+    //EF Item Names
+
+    "item-candiedfruit-ebony": "Candied ebony fruit",
+    "item-dryfruit-ebony": "Dried ebony fruit",
+    "item-gelatin-ebony": "Ebony fruit gelatin",
+    "item-fruitsyrupportion-ebony": "Ebony fruit syrup portion",
+    "incontainer-item-fruitsyrupportion-ebony": "Ebony fruit syrup",
+    "item-potentspiritportion-ebony": "Vintage ebony fruit brandy portion",
+    "incontainer-item-potentspiritportion-ebony": "Vintage ebony fruit brandy",
+    "item-potentwineportion-ebony": "Fine ebony fruit cider portion",
+    "incontainer-item-potentwineportion-ebony": "Fine ebony fruit cider",
+    "item-strongspiritportion-ebony": "Aged ebony fruit brandy portion",
+    "incontainer-item-strongspiritportion-ebony": "Aged ebony fruit brandy",
+    "item-strongwineportion-ebony": "Strong ebony fruit cider portion",
+    "incontainer-item-strongwineportion-ebony": "Strong ebony fruit cider",
+    "item-yogurt-ebony": "Ebony fruit yogurt portion",
+    "incontainer-item-yogurt-ebony": "Ebony fruit yogurt",
+
+    //Meal Ingredients
+
+    "outstandingebony:recipeingredient-item-fruit-ebony-insturmentalcase": "ebony fruit",
+    "outstandingebony:recipeingredient-item-fruit-ebony-topping": "ebony fruit",
+    "game:recipeingredient-item-fruit-ebony-insturmentalcase": "ebony fruit",
+    "game:recipeingredient-item-fruit-ebony": "ebony fruit",
+    "game:meal-ingredient-soup-primary-fruit-ebony": "ebony fruit",
+    "game:meal-ingredient-soup-secondary-fruit-ebony": "ebony fruit",
+    "game:meal-ingredient-stew-primary-fruit-ebony": "ebony fruit",
+    "game:meal-ingredient-stew-secondary-fruit-ebony": "ebony fruit",
+
+    "outstandingebony:recipeingredient-item-juiceportion-ebony-insturmentalcase": "ebony fruit juice",
+    "outstandingebony:recipeingredient-item-juiceportion-ebony-topping": "ebony fruit juice",
+    "game:meal-ingredient-soup-primary-juiceportion-ebony": "ebony fruit juice",
+    "game:meal-ingredient-soup-secondary-juiceportion-ebony": "ebony fruit juice",
+    "game:meal-ingredient-stew-primary-juiceportion-ebony": "ebony fruit juice",
+    "game:meal-ingredient-stew-secondary-juiceportion-ebony": "ebony fruit juice",
+
+    "outstandingebony:recipeingredient-item-ciderportion-ebony-insturmentalcase": "ebony fruit cider",
+    "outstandingebony:recipeingredient-item-ciderportion-ebony-topping": "ebony fruit cider",
+    "game:meal-ingredient-soup-primary-ciderportion-ebony": "ebony fruit cider",
+    "game:meal-ingredient-soup-secondary-ciderportion-ebony": "ebony fruit cider",
+    "game:meal-ingredient-stew-primary-ciderportion-ebony": "ebony fruit cider",
+    "game:meal-ingredient-stew-secondary-ciderportion-ebony": "ebony fruit cider",
+
+    "outstandingebony:recipeingredient-item-spiritportion-ebony-insturmentalcase":  "ebony fruit brandy",
+    "outstandingebony:recipeingredient-item-spiritportion-ebony-topping":           "ebony fruit brandy",
+    "game:meal-ingredient-soup-primary-spiritportion-ebony":                        "ebony fruit brandy",
+    "game:meal-ingredient-soup-secondary-spiritportion-ebony":                      "ebony fruit brandy",
+    "game:meal-ingredient-stew-primary-spiritportion-ebony":                        "ebony fruit brandy",
+    "game:meal-ingredient-stew-secondary-spiritportion-ebony":                      "ebony fruit brandy",
+    
+    //EF Meal Ingredients 
+
+    "outstandingebony:recipeingredient-item-dryfruit-ebony-insturmentalcase": "dried ebony fruit",
+    "game:recipeingredient-item-dryfruit-ebony-insturmentalcase": "dried ebony fruit",
+    "outstandingebony:recipeingredient-item-dryfruit-ebony-topping": "dried ebony fruit",
+    "outstandingebony:recipeingredient-item-dryfruit-ebony": "dried ebony fruit",
+    "game:recipeingredient-item-dryfruit-ebony": "dried ebony fruit",
+    "game:meal-ingredient-soup-primary-dryfruit-ebony": "dried ebony fruit",
+    "game:meal-ingredient-soup-secondary-dryfruit-ebony": "dried ebony fruit",
+    "game:meal-ingredient-stew-primary-dryfruit-ebony": "dried ebony fruit",
+    "game:meal-ingredient-stew-secondary-dryfruit-ebony": "dried ebony fruit",
+
+    "outstandingebony:recipeingredient-item-candiedfruit-ebony-insturmentalcase": "candied ebony fruit",
+    "outstandingebony:recipeingredient-item-candiedfruit-ebony": "candied ebony fruit",
+    "game:recipeingredient-item-candiedfruit-ebony-insturmentalcase": "candied ebony fruit",
+    "game:recipeingredient-item-candiedfruit-ebony": "candied ebony fruit",
+    "outstandingebony:recipeingredient-item-candiedfruit-ebony-topping": "candied ebony fruit",
+    "game:meal-ingredient-soup-primary-candiedfruit-ebony": "candied ebony fruit",
+    "game:meal-ingredient-soup-secondary-candiedfruit-ebony": "candied ebony fruit",
+    "game:meal-ingredient-stew-primary-candiedfruit-ebony": "candied ebony fruit",
+    "game:meal-ingredient-stew-secondary-candiedfruit-ebony": "candied ebony fruit",
+
+    "outstandingebony:recipeingredient-item-gelatin-ebony-insturmentalcase":    "ebony fruit gelatin",
+    "outstandingebony:recipeingredient-item-gelatin-ebony":                     "ebony fruit gelatin",
+    "game:recipeingredient-item-gelatin-ebony-insturmentalcase":                "ebony fruit gelatin",
+    "game:recipeingredient-item-gelatin-ebony":                                 "ebony fruit gelatin",
+    "outstandingebony:recipeingredient-item-gelatin-ebony-topping":             "ebony fruit gelatin",
+    "game:meal-ingredient-soup-primary-gelatin-ebony":                          "ebony fruit gelatin",
+    "game:meal-ingredient-soup-secondary-gelatin-ebony":                        "ebony fruit gelatin",
+    "game:meal-ingredient-stew-primary-gelatin-ebony":                          "ebony fruit gelatin",
+    "game:meal-ingredient-stew-secondary-gelatin-ebony":                        "ebony fruit gelatin",
+
+    "outstandingebony:recipeingredient-item-strongspiritportion-ebony-insturmentalcase":  "aged ebony fruit brandy",
+    "outstandingebony:recipeingredient-item-strongspiritportion-ebony":                   "aged ebony fruit brandy",
+    "game:recipeingredient-item-strongspiritportion-ebony-insturmentalcase":              "aged ebony fruit brandy",
+    "game:recipeingredient-item-strongspiritportion-ebony":                               "aged ebony fruit brandy",
+    "outstandingebony:recipeingredient-item-strongspiritportion-ebony-topping":           "aged ebony fruit brandy",
+    "game:meal-ingredient-soup-primary-strongspiritportion-ebony":                        "aged ebony fruit brandy",
+    "game:meal-ingredient-soup-secondary-strongspiritportion-ebony":                      "aged ebony fruit brandy",
+    "game:meal-ingredient-stew-primary-strongspiritportion-ebony":                        "aged ebony fruit brandy",
+    "game:meal-ingredient-stew-secondary-strongspiritportion-ebony":                      "aged ebony fruit brandy",
+
+    "outstandingebony:recipeingredient-item-potentspiritportion-ebony-insturmentalcase":  "vintage ebony fruit brandy",
+    "outstandingebony:recipeingredient-item-potentspiritportion-ebony-topping":           "vintage ebony fruit brandy",
+    "game:recipeingredient-item-potentspiritportion-ebony-insturmentalcase":              "vintage ebony fruit brandy",
+    "game:recipeingredient-item-potentspiritportion-ebony":                               "vintage ebony fruit brandy",
+    "game:meal-ingredient-soup-primary-potentspiritportion-ebony":                        "vintage ebony fruit brandy",
+    "game:meal-ingredient-soup-secondary-potentspiritportion-ebony":                      "vintage ebony fruit brandy",
+    "game:meal-ingredient-stew-primary-potentspiritportion-ebony":                        "vintage ebony fruit brandy",
+    "game:meal-ingredient-stew-secondary-potentspiritportion-ebony":                      "vintage ebony fruit brandy",
+
+    "outstandingebony:recipeingredient-item-strongwineportion-ebony-insturmentalcase":  "strong ebony fruit cider",
+    "outstandingebony:recipeingredient-item-strongwineportion-ebony-topping":           "strong ebony fruit cider",
+    "game:recipeingredient-item-strongwineportion-ebony-insturmentalcase":              "strong ebony fruit cider",
+    "game:recipeingredient-item-strongwineportion-ebony":                               "strong ebony fruit cider",
+    "game:meal-ingredient-soup-primary-strongwineportion-ebony":                        "strong ebony fruit cider",
+    "game:meal-ingredient-soup-secondary-strongwineportion-ebony":                      "strong ebony fruit cider",
+    "game:meal-ingredient-stew-primary-strongwineportion-ebony":                        "strong ebony fruit cider",
+    "game:meal-ingredient-stew-secondary-strongwineportion-ebony":                      "strong ebony fruit cider",
+
+    "outstandingebony:recipeingredient-item-potentwineportion-ebony-insturmentalcase":  "fine ebony fruit cider",
+    "outstandingebony:recipeingredient-item-potentwineportion-ebony-topping":           "fine ebony fruit cider",
+    "game:recipeingredient-item-potentwineportion-ebony-insturmentalcase":              "fine ebony fruit cider",
+    "game:recipeingredient-item-potentwineportion-ebony":                               "fine ebony fruit cider",
+    "game:meal-ingredient-soup-primary-potentwineportion-ebony":                        "fine ebony fruit cider",
+    "game:meal-ingredient-soup-secondary-potentwineportion-ebony":                      "fine ebony fruit cider",
+    "game:meal-ingredient-stew-primary-potentwineportion-ebony":                        "fine ebony fruit cider",
+    "game:meal-ingredient-stew-secondary-potentwineportion-ebony":                      "fine ebony fruit cider",
+
+    "outstandingebony:recipeingredient-item-yogurt-ebony-insturmentalcase":    "ebony fruit yogurt",
+    "outstandingebony:recipeingredient-item-yogurt-ebony-topping":             "ebony fruit yogurt",
+    "game:recipeingredient-item-yogurt-ebony-insturmentalcase":                "ebony fruit yogurt",
+    "game:recipeingredient-item-yogurt-ebony":                                 "ebony fruit yogurt",
+    "game:meal-ingredient-soup-primary-yogurt-ebony":                          "ebony fruit yogurt",
+    "game:meal-ingredient-soup-secondary-yogurt-ebony":                        "ebony fruit yogurt",
+    "game:meal-ingredient-stew-primary-yogurt-ebony":                          "ebony fruit yogurt",
+    "game:meal-ingredient-stew-secondary-yogurt-ebony":                        "ebony fruit yogurt",
+
+    "outstandingebony:recipeingredient-item-fruitsyrupportion-ebony-insturmentalcase":    "ebony fruit syrup",
+    "outstandingebony:recipeingredient-item-fruitsyrupportion-ebony-topping":             "ebony fruit syrup",
+    "game:recipeingredient-item-fruitsyrupportion-ebony-insturmentalcase":                "ebony fruit syrup",
+    "game:recipeingredient-item-fruitsyrupportion-ebony":                                 "ebony fruit syrup",
+    "game:meal-ingredient-soup-primary-fruitsyrupportion-ebony":                          "ebony fruit syrup",
+    "game:meal-ingredient-soup-secondary-fruitsyrupportion-ebony":                        "ebony fruit syrup",
+    "game:meal-ingredient-stew-primary-fruitsyrupportion-ebony":                          "ebony fruit syrup",
+    "game:meal-ingredient-stew-secondary-fruitsyrupportion-ebony":                        "ebony fruit syrup",
+
+    "outstandingebony:recipeingredient-item-pressedmash-ebony-insturmentalcase":    "ebony fruit mash",
+    "outstandingebony:recipeingredient-item-pressedmash-ebony-topping":             "ebony fruit mash",
+    "game:recipeingredient-item-pressedmash-ebony-insturmentalcase":                "ebony fruit mash",
+    "game:recipeingredient-item-pressedmash-ebony":                                 "ebony fruit mash",
+    "game:meal-ingredient-soup-primary-pressedmash-ebony":                          "ebony fruit mash",
+    "game:meal-ingredient-soup-secondary-pressedmash-ebony":                        "ebony fruit mash",
+    "game:meal-ingredient-stew-primary-pressedmash-ebony":                          "ebony fruit mash",
+    "game:meal-ingredient-stew-secondary-pressedmash-ebony":                        "ebony fruit mash",
+
+    //Pies
+
+    "pie-single-outstandingebony:fruit-ebony-raw":       "Ebony fruit pie (raw)",
+    "pie-single-outstandingebony:fruit-ebony-partbaked": "Ebony fruit pie (part-baked)",
+    "pie-single-outstandingebony:fruit-ebony-perfect":   "Ebony fruit pie",
+    "pie-single-outstandingebony:fruit-ebony-charred":   "Ebony fruit pie (charred)",
+
+    //EF Pies
+
+    "pie-single-outstandingebony:dryfruit-ebony-raw":       "Dried ebony fruit pie (raw)",
+    "pie-single-outstandingebony:dryfruit-ebony-partbaked": "Dried ebony fruit pie (part-baked)",
+    "pie-single-outstandingebony:dryfruit-ebony-perfect":   "Dried ebony fruit pie",
+    "pie-single-outstandingebony:dryfruit-ebony-charred":   "Dried ebony fruit pie (charred)",
+
+    "pie-single-outstandingebony:candiedfruit-ebony-raw":       "Candied ebony fruit pie (raw)",
+    "pie-single-outstandingebony:candiedfruit-ebony-partbaked": "Candied ebony fruit pie (part-baked)",
+    "pie-single-outstandingebony:candiedfruit-ebony-perfect":   "Candied ebony fruit pie",
+    "pie-single-outstandingebony:candiedfruit-ebony-charred":   "Candied ebony fruit pie (charred)",
+
+    "pie-single-outstandingebony:gelatin-ebony-raw":       "Ebony fruit jelly pie (raw)",
+    "pie-single-outstandingebony:gelatin-ebony-partbaked": "Ebony fruit jelly pie (part-baked)",
+    "pie-single-outstandingebony:gelatin-ebony-perfect":   "Ebony fruit jelly pie",
+    "pie-single-outstandingebony:gelatin-ebony-charred":   "Ebony fruit jelly pie (charred)",
+    
+    //Item Descriptions
+
+    "itemdesc-fruit-ebony": "Also known as jackalberry.",
+    "itemdesc-pressedmash-ebony": "Crudely pressed fruit. Not too appetizing looking, but some animals might still eat this.",
+
+    "itemdesc-candiedfruit-*": "The sweetest of treats! Eating them will make you feel better than ever.",
+    "itemdesc-dryfruit-*": "Baked into a highly preservable state.",
+    "itemdesc-yogurt-*": "Fruity and creamy!",
+    
+    //Creative Tab
+
+    "game:tabname-incredibleedibles": "Incredible Edibles"
+}

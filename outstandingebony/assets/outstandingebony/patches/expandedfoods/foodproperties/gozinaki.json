@@ -1,0 +1,29 @@
+[
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:itemtypes/food/mixing/gozinaki",
+        "op": "addmerge",
+        "path": "/attributes/expandedNutritionProps",
+        "value": {
+            "outstandingebony:fruitsyrupportion-*": { "saturation": 12, "health": 0.1, "foodcategory": "Fruit" }
+        }
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:itemtypes/food/mixing/gozinaki",
+        "op": "addmerge",
+        "path": "/attributes/renderIngredientsByType/*-syrup",
+        "value": {
+            "outstandingebony:fruitsyrupportion-*": { "shape": "expandedfoods:shapes/item/food/gozinaki/syrup.json", "name": "type", "textureMap": { "syrup": "{type}" } }
+        }
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:itemtypes/food/mixing/gozinaki",
+        "op": "addmerge",
+        "path": "/textures",
+        "value": {
+            "ebony": { "base": "outstandingebony:block/food/pie/fill-ebony" }
+        }
+    }
+]

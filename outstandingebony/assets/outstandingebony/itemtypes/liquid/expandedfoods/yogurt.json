@@ -1,0 +1,77 @@
+{
+    "code": "yogurt",
+    "enabled": false,
+    "class": "ExpandedLiquid",
+    "matterState": "liquid",
+    "attributes": {
+        "handbook": {
+            "ignoreCreativeInvStacks": true,
+            "groupBy": [ "yogurt-*" ],
+            "extraSections": [ { "title": "expandedfoods:item-handbooktitle-yogurt", "text": "expandedfoods:item-handbooktext-yogurt" } ]
+        },
+        "inBowlShape": { "base": "game:block/food/meal/liquid" },
+        "nutritionPropsPerLitreWhenInMeal": { "satiety": 1500, "Health": 50, "foodcategory": "Dairy" },
+        "waterTightContainerProps": {
+            "containable": true,
+            "itemsPerLitre": 100,
+            "isopaque": true,
+            "texture": { "base": "game:item/liquid/yogurt/{type}" },
+            "allowSpill": true,
+            "whenSpilled": {
+                "action": "DropContents",
+                "stack": { "type": "item", "code": "yogurt-{type}" }
+            },
+            "nutritionPropsPerLitreByType": {
+                "*": { "satiety": 300, "health": 10, "foodcategory": "Dairy" }
+            }
+        },
+        "expandedNutritionPropsByType": {
+            "*": {
+                "expandedfoods:yogurt-starter": { "satiety": 3, "Health": 0.1, "foodcategory": "Dairy" },
+                "expandedfoods:yogurt-ferment": { "satiety": 3, "Health": 0.1, "foodcategory": "Dairy" },
+                "expandedfoods:yogurt-plain": { "satiety": 3, "Health": 0.1, "foodcategory": "Dairy" },
+                "expandedfoods:pasteurizedmilkportion": { "satiety": 0, "health": 0.0, "foodcategory": "Dairy" },
+                "game:honeyportion": { "satiety": 4, "health": 0.1, "foodcategory": "Fruit" },
+                "expandedfoods:fruitsyrupportion-saguaro": { "satiety": 12, "health": 0.2, "foodcategory": "Fruit" },
+                "expandedfoods:fruitsyrupportion-*": { "satiety": 12, "health": 0.1, "foodcategory": "Fruit" },
+                "expandedfoods:treesyrupportion-*": { "satiety": 9.6, "health": 0.1, "foodcategory": "Fruit" },
+                "outstandingebony:fruitsyrupportion-*": { "satiety": 12, "health": 0.1, "foodcategory": "Fruit" }
+            }
+        }
+    },
+    "variantgroups": [
+        { "code": "type", "states": [ "ebony" ] }
+    ],
+    "shape": { "base": "aculinaryartillery:item/goop" },
+    "texture": { "base": "game:item/liquid/yogurt/{type}" },
+    "creativeinventoryStacks": [ { "tabs": [ "general", "liquids", "expandedfoods", "incredibleedibles" ], "stacks": [ { "type": "block", "code": "game:woodbucket", "attributes": { "ucontents": [ { "type": "item", "code": "outstandingebony:yogurt-{type}", "makefull": true } ] } } ] } ],
+    "maxstacksize": 5000,
+    "materialDensity": 200,
+    "transitionablePropsByType": {
+        "*": [ {
+                "type": "Perish",
+                "freshHours": { "avg": 120 },
+                "transitionHours": { "avg": 120 },
+                "transitionedStack": { "type": "item", "code": "game:rot" },
+                "transitionRatio": 0.005
+            },
+            {
+                "type": "Cure",
+                "freshHours": { "avg": 240 },
+                "transitionHours": { "avg": 360 },
+                "transitionedStack": { "type": "item", "code": "expandedfoods:yogurt-starter" },
+                "transitionRatio": 1
+            } ]
+    },
+    "nutritionProps": { "satiety": 3, "Health": 0.1, "foodcategory": "Dairy" },
+    "guiTransform": {
+        "translation": { "x": 0, "y": 1, "z": 0 },
+        "rotation": { "x": 123, "y": -33, "z": -13 },
+        "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+        "scale": 1.4
+    },
+    "tpHandTransform": {
+        "translation": { "x": -1.5, "y": -1.175, "z": -1.4 },
+        "rotation": { "x": 0, "y": -93, "z": 3 }
+    }
+}

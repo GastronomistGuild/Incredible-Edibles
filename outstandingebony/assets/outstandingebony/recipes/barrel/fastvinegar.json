@@ -1,0 +1,12 @@
+[
+    {
+        "enabled": false,
+        "code": "fastvinegarbrine",
+        "sealHours": 168,
+        "ingredients": [
+            { "type": "item", "code": "game:vinegarportion", "litres": 1 },
+            { "type": "item", "code": "outstandingebony:fruit-*", "name": "fruit", "quantity": 3 }
+        ],
+        "output": { "type": "item", "code": "game:vinegarportion", "litres": 2 }
+    }
+]

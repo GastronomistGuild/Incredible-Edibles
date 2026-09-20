@@ -1,0 +1,20 @@
+[
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:recipes/kneading/breadedfishnugget",
+        "op": "addeach",
+        "path": "/0/ingredients/0/inputs/-",
+        "value": [
+            { "type": "item", "code": "outstandingebony:fruitsyrupportion-*", "quantity": 10 }
+        ]
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:recipes/kneading/breadedfishnugget",
+        "op": "addeach",
+        "path": "/1/ingredients/0/inputs/-",
+        "value": [
+            { "type": "item", "code": "outstandingebony:fruitsyrupportion-*", "quantity": 10 }
+        ]
+    }
+]

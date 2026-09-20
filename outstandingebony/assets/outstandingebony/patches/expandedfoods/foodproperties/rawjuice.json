@@ -1,0 +1,45 @@
+[
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "outstandingebony:itemtypes/liquid/rawjuice",
+        "op": "addmerge",
+        "path": "/combustibleProps",
+        "value": {
+            "meltingPoint": 150,
+            "meltingDuration": 5,
+            "smeltedRatio": 4,
+            "smeltingType": "cook",
+            "smeltedStack": { "type": "item", "code": "outstandingebony:fruitsyrupportion-ebony" },
+            "requiresContainer": true
+        }
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "itemtypes/liquid/rawjuice",
+        "op": "add",
+        "path": "/transitionableProps",
+        "value": [
+            {
+                "type": "Perish",
+                "freshHours": { "avg": 168 },
+                "transitionHours": { "avg": 72 },
+                "transitionedStack": { "type": "item", "code": "game:vinegarportion" },
+                "transitionRatio": 1
+            },
+            {
+                "type": "Cure",
+                "freshHours": { "avg": 168 },
+                "transitionHours": { "avg": 336 },
+                "transitionedStack": { "type": "item", "code": "outstandingebony:ciderportion-{fruit}" },
+                "transitionRatio": 1
+            }
+        ]
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "itemtypes/liquid/rawjuice",
+        "op": "addmerge",
+        "path": "/attributes/handbook/extraSections",
+        "value": [ { "title": "expandedfoods:item-handbooktitle-juiceprocessingguide", "text": "expandedfoods:item-handbooktext-juiceprocessingguide" } ]
+    }
+]

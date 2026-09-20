@@ -1,0 +1,72 @@
+[
+    {
+        "dependsOn": [ { "modid": "efmealsmodule" } ],
+        "file": "efmealsmodule:recipes/cooking/compote",
+        "op": "addmerge",
+        "path": "/ingredients/0/validStacks",
+        "value": [
+            { "type": "item", "code": "outstandingebony:ciderportion-ebony", "shapeElement": "bowl/syrup/*", "textureMapping": [ "syrup", "ebonywine" ] },
+            { "type": "item", "code": "outstandingebony:strongwineportion-ebony", "shapeElement": "bowl/syrup/*", "textureMapping": [ "syrup", "ebonywine" ] },
+            { "type": "item", "code": "outstandingebony:potentwineportion-ebony", "shapeElement": "bowl/syrup/*", "textureMapping": [ "syrup", "ebonywine" ] },
+            { "type": "item", "code": "outstandingebony:spiritportion-ebony", "shapeElement": "bowl/syrup/*", "textureMapping": [ "syrup", "ebonywine" ] },
+            { "type": "item", "code": "outstandingebony:strongspiritportion-ebony", "shapeElement": "bowl/syrup/*", "textureMapping": [ "syrup", "ebonywine" ] },
+            { "type": "item", "code": "outstandingebony:potentspiritportion-ebony", "shapeElement": "bowl/syrup/*", "textureMapping": [ "syrup", "ebonywine" ] },
+            { "type": "item", "code": "outstandingebony:fruitsyrupportion-ebony", "shapeElement": "bowl/syrup/*", "textureMapping": [ "syrup", "ebonywine" ] }
+        ]
+    },
+    {
+        "dependsOn": [ { "modid": "efmealsmodule" } ],
+        "file": "efmealsmodule:recipes/cooking/compote",
+        "op": "addmerge",
+        "path": "/ingredients/1/validStacks",
+        "value": [
+            { "type": "item", "code": "outstandingebony:dryfruit-ebony", "shapeElement": "bowl/fruit 1/*" },
+            { "type": "item", "code": "outstandingebony:fruit-ebony", "shapeElement": "bowl/fruit 1/*" }
+        ]
+    },
+    {
+        "dependsOn": [ { "modid": "efmealsmodule" } ],
+        "file": "efmealsmodule:recipes/cooking/compote",
+        "op": "addmerge",
+        "path": "/ingredients/2/validStacks",
+        "value": [
+            { "type": "item", "code": "outstandingebony:dryfruit-ebony", "shapeElement": "bowl/fruit 1/*" },
+            { "type": "item", "code": "outstandingebony:fruit-ebony", "shapeElement": "bowl/fruit 1/*" }
+        ]
+    },
+    {
+        "dependsOn": [ { "modid": "efmealsmodule" } ],
+        "file": "efmealsmodule:recipes/cooking/compote",
+        "op": "addmerge",
+        "path": "/ingredients/3/validStacks",
+        "value": [
+            { "type": "item", "code": "outstandingebony:dryfruit-ebony", "shapeElement": "bowl/fruit 1/*" },
+            { "type": "item", "code": "outstandingebony:fruit-ebony", "shapeElement": "bowl/fruit 1/*" }
+        ]
+    },
+    {
+        "dependsOn": [ { "modid": "efmealsmodule" } ],
+        "file": "efmealsmodule:recipes/cooking/compote",
+        "op": "addmerge",
+        "path": "/ingredients/4/validStacks",
+        "value": [
+            { "type": "item", "code": "outstandingebony:fruitsyrupportion-ebony", "shapeElement": "bowl/syrup/*", "textureMapping": [ "topping", "ebonywine" ] },
+            { "type": "item", "code": "outstandingebony:gelatin-ebony", "shapeElement": "bowl/syrup/*", "textureMapping": [ "topping", "ebonywine" ] }
+        ]
+    },
+    {
+        "dependsOn": [ { "modid": "efmealsmodule" } ],
+        "file": "efmealsmodule:recipes/cooking/compote",
+        "op": "addmerge",
+        "path": "/ingredients/5/validStacks",
+        "value": [
+            { "type": "item", "code": "outstandingebony:ciderportion-ebony" },
+            { "type": "item", "code": "outstandingebony:strongwineportion-ebony" },
+            { "type": "item", "code": "outstandingebony:potentwineportion-ebony" },
+            { "type": "item", "code": "outstandingebony:spiritportion-ebony" },
+            { "type": "item", "code": "outstandingebony:strongspiritportion-ebony" },
+            { "type": "item", "code": "outstandingebony:potentspiritportion-ebony" },
+            { "type": "item", "code": "outstandingebony:fruitsyrupportion-ebony" }
+        ]
+    }
+]

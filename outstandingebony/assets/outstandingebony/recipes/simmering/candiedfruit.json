@@ -1,0 +1,17 @@
+[
+    {
+        "enabled": false,
+        "Ingredients": [
+            { "type": "item", "code": "outstandingebony:fruitsyrupportion-*", "name": "fruit", "quantity": 10 },
+            { "type": "item", "code": "outstandingebony:fruit-*", "name": "fruit", "quantity": 1 }
+        ],
+        "Simmering": {
+            "meltingPoint": 200,
+            "meltingDuration": 10,
+            "smeltedRatio": 1,
+            "smeltingType": "bake",
+            "smeltedStack": { "type": "item", "code": "outstandingebony:candiedfruit-{fruit}", "quantity": 1 },
+            "requiresContainer": false
+        }
+    }
+]

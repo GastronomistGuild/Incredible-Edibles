@@ -1,0 +1,69 @@
+[
+    //Meat Stew
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "game:recipes/cooking/meatystew",
+        "op": "addmerge",
+        "path": "/ingredients/7/validStacks",
+        "value": [
+            { "type": "item", "code": "outstandingebony:dryfruit-ebony", "shapeElement": "bowl/fruit 1/*" }
+        ]
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "game:recipes/cooking/meatystew",
+        "op": "addmerge",
+        "path": "/ingredients/8/validStacks",
+        "value": [
+            { "type": "item", "code": "outstandingebony:ciderportion-ebony", "shapeElement": "bowl/topping/*", "textureMapping": [ "topping", "ebonywine" ] },
+            { "type": "item", "code": "outstandingebony:strongwineportion-ebony", "shapeElement": "bowl/topping/*", "textureMapping": [ "topping", "ebonywine" ] },
+            { "type": "item", "code": "outstandingebony:potentwineportion-ebony", "shapeElement": "bowl/topping/*", "textureMapping": [ "topping", "ebonywine" ] },
+            { "type": "item", "code": "outstandingebony:spiritportion-ebony", "shapeElement": "bowl/topping/*", "textureMapping": [ "topping", "ebonywine" ] },
+            { "type": "item", "code": "outstandingebony:strongspiritportion-ebony", "shapeElement": "bowl/topping/*", "textureMapping": [ "topping", "ebonywine" ] },
+            { "type": "item", "code": "outstandingebony:potentspiritportion-ebony", "shapeElement": "bowl/topping/*", "textureMapping": [ "topping", "ebonywine" ] }
+        ]
+    },
+    //Porridge
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "game:recipes/cooking/porridge",
+        "op": "addmerge",
+        "path": "/ingredients/1/validStacks",
+        "value": [
+            { "type": "item", "code": "outstandingebony:dryfruit-ebony", "shapeElement": "bowl/fruit 1/*" }
+        ]
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "game:recipes/cooking/porridge",
+        "op": "addmerge",
+        "path": "/ingredients/2/validStacks",
+        "value": [
+            { "type": "item", "code": "outstandingebony:dryfruit-ebony", "shapeElement": "bowl/fruit 2/*" }
+        ]
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "game:recipes/cooking/porridge",
+        "op": "addmerge",
+        "path": "/ingredients/5/validStacks",
+        "value": [
+            { "type": "item", "code": "outstandingebony:fruitsyrupportion-ebony", "shapeElement": "bowl/topping/*", "textureMapping": [ "topping", "ebonysyrup" ] }
+        ]
+    },
+    //Vegetable Stew
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "game:recipes/cooking/vegetablestew",
+        "op": "addmerge",
+        "path": "/ingredients/4/validStacks",
+        "value": [
+            { "type": "item", "code": "outstandingebony:ciderportion-ebony", "shapeElement": "bowl/topping/*", "textureMapping": [ "topping", "ebonywine" ] },
+            { "type": "item", "code": "outstandingebony:strongwineportion-ebony", "shapeElement": "bowl/topping/*", "textureMapping": [ "topping", "ebonywine" ] },
+            { "type": "item", "code": "outstandingebony:potentwineportion-ebony", "shapeElement": "bowl/topping/*", "textureMapping": [ "topping", "ebonywine" ] },
+            { "type": "item", "code": "outstandingebony:spiritportion-ebony", "shapeElement": "bowl/topping/*", "textureMapping": [ "topping", "ebonywine" ] },
+            { "type": "item", "code": "outstandingebony:strongspiritportion-ebony", "shapeElement": "bowl/topping/*", "textureMapping": [ "topping", "ebonywine" ] },
+            { "type": "item", "code": "outstandingebony:potentspiritportion-ebony", "shapeElement": "bowl/topping/*", "textureMapping": [ "topping", "ebonywine" ] }
+        ]
+    }
+]

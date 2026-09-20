@@ -1,0 +1,11 @@
+[
+    {
+        "enabled": false,
+        "code": "fruitvinegar",
+        "sealHours": 336,
+        "ingredients": [
+            { "type": "item", "code": "outstandingebony:fruit-*", "name": "fruit", "quantity": 3 }
+        ],
+        "output": { "type": "item", "code": "game:vinegarportion", "litres": 1 }
+    }
+]

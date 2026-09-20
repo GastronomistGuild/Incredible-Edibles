@@ -1,0 +1,29 @@
+[
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:recipes/kneading/stuffedpepper",
+        "op": "addeach",
+        "path": "/3/ingredients/2/inputs/-",
+        "value": [
+            { "type": "item", "code": "outstandingebony:fruitsyrupportion-*", "quantity": 10 }
+        ]
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:recipes/kneading/stuffedpepper",
+        "op": "addeach",
+        "path": "/4/ingredients/2/inputs/-",
+        "value": [
+            { "type": "item", "code": "outstandingebony:fruitsyrupportion-*", "quantity": 10 }
+        ]
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:recipes/kneading/stuffedpepper",
+        "op": "addeach",
+        "path": "/8/ingredients/2/inputs/-",
+        "value": [
+            { "type": "item", "code": "outstandingebony:fruitsyrupportion-*", "quantity": 10 }
+        ]
+    }
+]

@@ -1,0 +1,16 @@
+[
+    {
+        "dependsOn": [ { "modid": "justvinegar" } ],
+        "file": "outstandingebony:itemtypes/liquid/cider.json",
+        "op": "replace",
+        "path": "/transitionableProps/0/transitionedStack/code",
+        "value": "vinegarportion"
+    },
+    {
+        "dependsOn": [ { "modid": "justvinegar" } ],
+        "file": "outstandingebony:itemtypes/liquid/cider.json",
+        "op": "replace",
+        "path": "/transitionableProps/0/transitionRatio",
+        "value": 1.0
+    }
+]

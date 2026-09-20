@@ -1,0 +1,12 @@
+[
+    {
+        "enabled": false,
+        "code": "wildyeast",
+        "sealHours": 96,
+        "ingredients": [
+            { "type": "item", "code": "game:waterportion", "litres": 1 },
+            { "type": "item", "code": "outstandingebony:dryfruit-*", "quantity": 6, "name": "fruit" }
+        ],
+        "output": { "type": "item", "code": "expandedfoods:yeastwaterportion", "litres": 1 }
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:itemtypes/liquid/dressing",
+        "op": "addmerge",
+        "path": "/attributes/expandedNutritionPropsByType/*-basic",
+        "value": {
+            "outstandingebony:fruitsyrupportion-*": { "satiety": 8, "health": 0.1, "foodcategory": "Fruit" }
+        }
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:itemtypes/liquid/dressing",
+        "op": "addmerge",
+        "path": "/attributes/expandedNutritionPropsByType/@*-(salad|savory|sweet)",
+        "value": {
+            "outstandingebony:fruitsyrupportion-*": { "satiety": 8, "health": 0.1, "foodcategory": "Fruit" }
+        }
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:itemtypes/liquid/dressing",
+        "op": "addmerge",
+        "path": "/attributes/expandedNutritionPropsByType/*-deluxe",
+        "value": {
+            "outstandingebony:fruitsyrupportion-*": { "satiety": 8, "health": 0.1, "foodcategory": "Fruit" }
+        }
+    }
+]

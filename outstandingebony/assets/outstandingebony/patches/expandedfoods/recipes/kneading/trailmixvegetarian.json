@@ -1,0 +1,109 @@
+[
+    //Recipe 1
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:recipes/kneading/trailmixvegetarian",
+        "op": "addeach",
+        "path": "/0/ingredients/2/inputs/-",
+        "value": [
+            { "type": "item", "code": "outstandingebony:dryfruit-*", "quantity": 3 }
+        ]
+    },
+    //Recipe 2
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:recipes/kneading/trailmixvegetarian",
+        "op": "addeach",
+        "path": "/1/ingredients/2/inputs/-",
+        "value": [
+            { "type": "item", "code": "outstandingebony:dryfruit-*", "quantity": 3 }
+        ]
+    },
+    //Recipe 3
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:recipes/kneading/trailmixvegetarian",
+        "op": "addeach",
+        "path": "/2/ingredients/2/inputs/-",
+        "value": [
+            { "type": "item", "code": "outstandingebony:dryfruit-*", "quantity": 3 }
+        ]
+    },
+    //Recipe 4
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:recipes/kneading/trailmixvegetarian",
+        "op": "addeach",
+        "path": "/3/ingredients/2/inputs/-",
+        "value": [
+            { "type": "item", "code": "outstandingebony:dryfruit-*", "quantity": 3 }
+        ]
+    },
+    //Recipe 5
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:recipes/kneading/trailmixvegetarian",
+        "op": "addeach",
+        "path": "/4/ingredients/2/inputs/-",
+        "value": [
+            { "type": "item", "code": "outstandingebony:dryfruit-*", "quantity": 3 }
+        ]
+    },
+    //Recipe 6
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:recipes/kneading/trailmixvegetarian",
+        "op": "addeach",
+        "path": "/5/ingredients/2/inputs/-",
+        "value": [
+            { "type": "item", "code": "outstandingebony:dryfruit-*", "quantity": 3 }
+        ]
+    },
+    //Recipe 7
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:recipes/kneading/trailmixvegetarian",
+        "op": "addeach",
+        "path": "/6/ingredients/2/inputs/-",
+        "value": [
+            { "type": "item", "code": "outstandingebony:dryfruit-*", "quantity": 3 }
+        ]
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:recipes/kneading/trailmixvegetarian",
+        "op": "addeach",
+        "path": "/6/ingredients/4/inputs/-",
+        "value": [
+            { "type": "item", "code": "outstandingebony:dryfruit-*", "quantity": 3 }
+        ]
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:recipes/kneading/trailmixvegetarian",
+        "op": "addeach",
+        "path": "/6/ingredients/5/inputs/-",
+        "value": [
+            { "type": "item", "code": "outstandingebony:dryfruit-*", "quantity": 3 }
+        ]
+    },
+    //Recipe 8
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:recipes/kneading/trailmixvegetarian",
+        "op": "addeach",
+        "path": "/7/ingredients/2/inputs/-",
+        "value": [
+            { "type": "item", "code": "outstandingebony:dryfruit-*", "quantity": 3 }
+        ]
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:recipes/kneading/trailmixvegetarian",
+        "op": "addeach",
+        "path": "/7/ingredients/5/inputs/-",
+        "value": [
+            { "type": "item", "code": "outstandingebony:dryfruit-*", "quantity": 3 }
+        ]
+    }
+]

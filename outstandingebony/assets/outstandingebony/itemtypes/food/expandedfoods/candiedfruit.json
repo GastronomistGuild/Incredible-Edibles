@@ -1,0 +1,117 @@
+{
+    "code": "candiedfruit",
+    "enabled": false,
+    "behaviors": [
+        { "name": "GroundStorable", "properties": { "layout": "messy12", "collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.125, "z2": 1 } } }
+    ],
+    "maxstacksize": 64,
+    "variantgroups": [
+        { "code": "fruit", "states": [ "ebony" ] }
+    ],
+    "attributes": {
+        "displaycaseable": true,
+        "shelvable": true,
+        "handbook": {
+            "groupBy": [ "candiedfruit-*" ],
+            "extraSections": [ { "title": "expandedfoods:item-handbooktitle-candiedfruit", "text": "expandedfoods:item-handbooktext-candiedfruit" } ]
+        },
+        "nutritionPropsWhenInMeal": {
+            "satietyByType": {
+                "*": 210
+            },
+            "foodcategory": "Fruit"
+        },
+        "inPiePropertiesByType": {
+            "*": { "texture": "outstandingebony:block/food/pie/fill-{fruit}", "partType": "Filling" }
+        },
+        "groundStorageTransformByType": {
+            "*": {
+                "rotation": { "x": 0, "y": 45, "z": 0 },
+                "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+                "scale": 0.75
+            }
+        },
+        "inTrapTransformByType": {
+            "*": {
+                "small": {
+                    "translation": { "x": 0, "y": -0.075, "z": -0.03 },
+                    "rotation": { "x": 0, "y": -17, "z": 0 },
+                    "scale": 0.6
+                },
+                "large": {
+                    "translation": { "x": -0.33, "y": 0.44, "z": 0.02 },
+                    "rotation": { "x": 0, "y": 31, "z": 11 },
+                    "scale": 0.6
+                }
+            }
+        },
+        "inMouthTransformByType": {
+            "*": {
+                "translation": { "x": -1.36, "y": -0.67, "z": -1.4 },
+                "rotation": { "x": 6, "y": 155, "z": -41 },
+                "origin": { "x": 0.45, "y": 0.2, "z": 0.5 },
+                "scale": 0.38
+            }
+        },
+        "displayable": {
+            "shelf": {
+                "size": { "width": 3.5, "height": 3, "length": 3.5 }
+            }
+        },
+        "onDisplayTransformByType": {
+            "dryfruit-*": {
+                "translation": { "x": 0.0, "y": -0.1, "z": 0.05 },
+                "scale": 0.8
+            }
+        },
+        "inContainerTextureByType": {
+            "*": { "base": "outstandingebony:block/barrel/{fruit}" }
+        }
+    },
+    "shapebytype": {
+        "*": { "base": "outstandingebony:item/food/candy/fruit/{fruit}" }
+    },
+    "creativeinventory": { "general": [ "*" ], "items": [ "*" ], "expandedfoods": [ "*" ], "incredibleedibles": [ "*" ] },
+    "nutritionPropsByType": {
+        "*": { "satiety": 160, "health": 1, "foodcategory": "Fruit" }
+    },
+    "transitionablePropsByType": {
+        "*": [ {
+                "type": "Perish",
+                "freshHours": { "avg": 720 },
+                "transitionHours": { "avg": 12 },
+                "transitionedStack": { "type": "item", "code": "game:rot" },
+                "transitionRatio": 0.25
+            } ]
+    },
+    "guiTransformByType": {
+        "*": {
+            "translation": { "x": 0, "y": 4, "z": 0 },
+            "rotation": { "x": 180, "y": -30, "z": 21 },
+            "origin": { "x": 0.48, "y": 0.1, "z": 0.5 },
+            "scale": 3.8
+        }
+    },
+    "tpHandTransformByType": {
+        "*": {
+            "translation": { "x": -2.1, "y": -0.9, "z": -0.6 },
+            "rotation": { "x": 0, "y": 30, "z": -86 },
+            "origin": { "x": 1.4, "y": 0, "z": 0.5 },
+            "scale": 0.7
+        }
+    },
+    "groundTransformByType": {
+        "*": {
+            "translation": { "x": 0, "y": 0, "z": 0 },
+            "rotation": { "x": 2, "y": 0, "z": 0 },
+            "origin": { "x": 0.5, "y": -0, "z": 0.5 },
+            "scale": 3
+        }
+    },
+    "heldRightReadyAnimationByType": {
+        "*": "holdbothhands"
+    },
+    "heldTpIdleAnimationByType": {
+        "*": "holdbothhands"
+    }
+}

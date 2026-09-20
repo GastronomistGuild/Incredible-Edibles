@@ -1,0 +1,64 @@
+[
+    //Recipe 1
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:recipes/kneading/fruitbar",
+        "op": "addeach",
+        "path": "/0/ingredients/1/inputs/-",
+        "value": [
+            { "type": "item", "code": "outstandingebony:fruit-*", "quantity": 1 },
+            { "type": "item", "code": "outstandingebony:dryfruit-*", "quantity": 1 },
+            { "type": "item", "code": "outstandingebony:candiedfruit-*", "quantity": 1 }
+        ]
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:recipes/kneading/fruitbar",
+        "op": "addeach",
+        "path": "/0/ingredients/2/inputs/-",
+        "value": [
+            { "type": "item", "code": "outstandingebony:gelatin-*", "quantity": 1 },
+            { "type": "item", "code": "outstandingebony:yogurt-*", "quantity": 10 }
+        ]
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:recipes/kneading/fruitbar",
+        "op": "addeach",
+        "path": "/0/ingredients/3/inputs/-",
+        "value": [
+            { "type": "item", "code": "outstandingebony:fruitsyrupportion-*", "quantity": 10 }
+        ]
+    },
+    //Recipe 2
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:recipes/kneading/fruitbar",
+        "op": "addeach",
+        "path": "/1/ingredients/1/inputs/-",
+        "value": [
+            { "type": "item", "code": "outstandingebony:fruit-*", "quantity": 1 },
+            { "type": "item", "code": "outstandingebony:dryfruit-*", "quantity": 1 },
+            { "type": "item", "code": "outstandingebony:candiedfruit-*", "quantity": 1 }
+        ]
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:recipes/kneading/fruitbar",
+        "op": "addeach",
+        "path": "/0/ingredients/2/inputs/-",
+        "value": [
+            { "type": "item", "code": "outstandingebony:gelatin-*", "quantity": 1 },
+            { "type": "item", "code": "outstandingebony:yogurt-*", "quantity": 10 }
+        ]
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:recipes/kneading/fruitbar",
+        "op": "addeach",
+        "path": "/0/ingredients/3/inputs/-",
+        "value": [
+            { "type": "item", "code": "outstandingebony:fruitsyrupportion-*", "quantity": 10 }
+        ]
+    }
+]

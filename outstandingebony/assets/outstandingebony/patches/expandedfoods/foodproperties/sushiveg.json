@@ -1,0 +1,11 @@
+[
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:itemtypes/food/mixing/sushiveg",
+        "op": "addmerge",
+        "path": "/attributes/expandedNutritionProps",
+        "value": {
+            "outstandingebony:fruitsyrupportion-*": { "saturation": 12, "health": 0.1, "foodcategory": "Fruit" }
+        }
+    }
+]

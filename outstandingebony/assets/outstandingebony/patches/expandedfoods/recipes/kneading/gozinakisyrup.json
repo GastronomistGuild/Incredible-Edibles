@@ -1,0 +1,11 @@
+[
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:recipes/kneading/gozinakisyrup",
+        "op": "addeach",
+        "path": "/0/ingredients/0/inputs/-",
+        "value": [
+            { "type": "item", "code": "outstandingebony:fruitsyrupportion-*", "quantity": 10 }
+        ]
+    }
+]

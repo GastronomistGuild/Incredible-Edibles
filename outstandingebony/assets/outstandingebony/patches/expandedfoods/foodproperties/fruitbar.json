@@ -1,0 +1,35 @@
+[
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:itemtypes/food/mixing/fruitbar",
+        "op": "addmerge",
+        "path": "/attributes/expandedNutritionProps",
+        "value": {
+            "outstandingebony:fruitsyrupportion-*": { "saturation": 12, "health": 0.1, "foodcategory": "Fruit" },
+            "outstandingebony:yogurt-*": { "saturation": 3, "Health": 0.1, "foodcategory": "Dairy" }
+        }
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:itemtypes/food/mixing/fruitbar",
+        "op": "addmerge",
+        "path": "/attributes/renderIngredients",
+        "value": {
+            "outstandingebony:fruit-*": { "shape": "expandedfoods:shapes/item/food/fruitbar/overlay.json", "name": "overlay", "textureMap": { "overlay": "{overlay}O" } },
+            "outstandingebony:dryfruit-*": { "shape": "expandedfoods:shapes/item/food/fruitbar/overlay.json", "name": "overlay", "textureMap": { "overlay": "{overlay}O" } },
+            "outstandingebony:candiedfruit-*": { "shape": "expandedfoods:shapes/item/food/fruitbar/overlay.json", "name": "overlay", "textureMap": { "overlay": "{overlay}O" } },
+            "outstandingebony:gelatin-*": { "shape": "expandedfoods:shapes/item/food/fruitbar/filling.json", "name": "filling", "textureMap": { "filling": "{filling}F" } },
+            "outstandingebony:yogurt-*": { "shape": "expandedfoods:shapes/item/food/fruitbar/filling.json", "name": "filling", "textureMap": { "filling": "{filling}F" } }
+        }
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:itemtypes/food/mixing/fruitbar",
+        "op": "addmerge",
+        "path": "/textures",
+        "value": {
+            "ebonyO": { "base": "outstandingebony:item/food/grain/overlays/ebony" },
+            "ebonyF": { "base": "outstandingebony:item/food/gelatin/ebony" }
+        }
+    }
+]

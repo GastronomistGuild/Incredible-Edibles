@@ -1,0 +1,126 @@
+[
+    //Barrel
+    //Fast Vinegar
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "outstandingebony:recipes/barrel/fastvinegar",
+        "op": "replace",
+        "path": "/0/enabled",
+        "value": true
+    },
+    //Fruit Vinegar
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "outstandingebony:recipes/barrel/fruitvinegar",
+        "op": "replace",
+        "path": "/0/enabled",
+        "value": true
+    },
+    //Wild Yeast
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "outstandingebony:recipes/barrel/wildyeast",
+        "op": "replace",
+        "path": "/0/enabled",
+        "value": true
+    },
+    //Wine Vinegar
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "outstandingebony:recipes/barrel/winevinegar",
+        "op": "replace",
+        "path": "/0/enabled",
+        "value": true
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "outstandingebony:recipes/barrel/winevinegar",
+        "op": "replace",
+        "path": "/1/enabled",
+        "value": true
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "outstandingebony:recipes/barrel/winevinegar",
+        "op": "replace",
+        "path": "/2/enabled",
+        "value": true
+    },
+    //Yogurt Starter
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "outstandingebony:recipes/barrel/yogurtstarter",
+        "op": "replace",
+        "path": "/0/enabled",
+        "value": true
+    },
+    //Kneading
+    //Yogurt Fruit
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "outstandingebony:recipes/kneading/yogurtfruit",
+        "op": "replace",
+        "path": "/0/enabled",
+        "value": true
+    },
+    //Simmering
+    //Candied Fruit
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "outstandingebony:recipes/simmering/candiedfruit",
+        "op": "replace",
+        "path": "/0/enabled",
+        "value": true
+    },
+    //Fruit Leather
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "outstandingebony:recipes/simmering/fruitleather",
+        "op": "replace",
+        "path": "/0/enabled",
+        "value": true
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "outstandingebony:recipes/simmering/fruitleather",
+        "op": "replace",
+        "path": "/1/enabled",
+        "value": true
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "outstandingebony:recipes/simmering/fruitleather",
+        "op": "replace",
+        "path": "/2/enabled",
+        "value": true
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "outstandingebony:recipes/simmering/fruitleather",
+        "op": "replace",
+        "path": "/3/enabled",
+        "value": true
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "outstandingebony:recipes/simmering/fruitleather",
+        "op": "replace",
+        "path": "/4/enabled",
+        "value": true
+    },
+    //Gelatin
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "outstandingebony:recipes/simmering/gelatin",
+        "op": "replace",
+        "path": "/0/enabled",
+        "value": true
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "outstandingebony:recipes/simmering/gelatin",
+        "op": "replace",
+        "path": "/1/enabled",
+        "value": true
+    }
+]

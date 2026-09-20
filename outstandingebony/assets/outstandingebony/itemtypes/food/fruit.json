@@ -1,0 +1,122 @@
+{
+    "code": "fruit",
+    "behaviors": [
+        { "name": "GroundStorable", "properties": { "layout": "Quadrants", "collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.125, "z2": 1 } } }
+    ],
+    "variantgroups": [
+        { "code": "fruit", "states": [ "ebony" ] }
+    ],
+    "shapebytype": {
+        "*": { "base": "item/food/fruit/{fruit}" }
+    },
+    "textureByType": {
+        "*": { "base": "item/food/fruit/{fruit}" }
+    },
+    "attributes": {
+        "foodTags": [ "{fruit}", "fruit" ],
+        "handbook": {
+            "groupBy": [ "fruit-*" ]
+        },
+        "nutritionPropsWhenInMeal": {
+            "satietyByType": {
+                "*": 60
+            },
+            "foodcategory": "Fruit"
+        },
+        "inPiePropertiesByType": {
+            "*": { "texture": "block/food/pie/fill-{fruit}", "partType": "Filling", "portionSize": 4 }
+        },
+        "juiceablePropertiesByType": {
+            "*": {
+                "litresPerItem": 0.3125,
+                "liquidStack": { "type": "item", "code": "outstandingebony:juiceportion-{fruit}", "stacksize": 1 },
+                "pressedStack": { "type": "item", "code": "outstandingebony:pressedmash-{fruit}", "stacksize": 1 }
+            }
+        },
+        "groundStorageTransformByType": {
+            "*": {
+                "rotation": { "x": 0, "y": 45, "z": 0 },
+                "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+                "scale": 0.75
+            }
+        },
+        "inTrapTransformByType": {
+            "*": {
+                "small": {
+                    "translation": { "x": 0, "y": -0.075, "z": -0.03 },
+                    "rotation": { "x": 0, "y": -17, "z": 0 },
+                    "scale": 0.6
+                },
+                "large": {
+                    "translation": { "x": -0.33, "y": 0.44, "z": 0.02 },
+                    "rotation": { "x": 0, "y": 31, "z": 11 },
+                    "scale": 0.6
+                }
+            }
+        },
+        "inMouthTransformByType": {
+            "*": {
+                "translation": { "x": -1.36, "y": -0.67, "z": -1.4 },
+                "rotation": { "x": 6, "y": 155, "z": -41 },
+                "origin": { "x": 0.45, "y": 0.2, "z": 0.5 },
+                "scale": 0.38
+            }
+        },
+        "displayable": {
+            "shelf": {
+                "size": { "width": 3.5, "height": 3, "length": 3.5 }
+            }
+        },
+        "inContainerTextureByType": {
+            "*": { "base": "outstandingebony:block/barrel/{fruit}" }
+        },
+        "hydration": 40
+    },
+    "creativeinventory": { "general": [ "*" ], "items": [ "*" ], "incredibleedibles": [ "*" ] },
+    "maxstacksize": 64,
+    "materialDensityByType": {
+        "*": 600
+    },
+    "nutritionPropsByType": {
+        "*": { "satiety": 40, "foodcategory": "Fruit" }
+    },
+    "transitionablePropsByType": {
+        "*": [ {
+                "type": "Perish",
+                "freshHours": { "avg": 48 },
+                "transitionHours": { "avg": 12 },
+                "transitionedStack": { "type": "item", "code": "game:rot" },
+                "transitionRatio": 0.25
+            } ]
+    },
+    "guiTransformByType": {
+        "*": {
+            "translation": { "x": 0, "y": 4, "z": 0 },
+            "rotation": { "x": 180, "y": -30, "z": 21 },
+            "origin": { "x": 0.48, "y": 0.1, "z": 0.5 },
+            "scale": 3.8
+        }
+    },
+    "tpHandTransformByType": {
+        "*": {
+            "translation": { "x": -2.1, "y": -0.9, "z": -0.6 },
+            "rotation": { "x": 0, "y": 30, "z": -86 },
+            "origin": { "x": 1.4, "y": 0, "z": 0.5 },
+            "scale": 0.7
+        }
+    },
+    "groundTransformByType": {
+        "*": {
+            "translation": { "x": 0, "y": 0, "z": 0 },
+            "rotation": { "x": 2, "y": 0, "z": 0 },
+            "origin": { "x": 0.5, "y": -0, "z": 0.5 },
+            "scale": 3
+        }
+    },
+    "heldRightReadyAnimationByType": {
+        "*": "holdbothhands"
+    },
+    "heldTpIdleAnimationByType": {
+        "*": "holdbothhands"
+    }
+}

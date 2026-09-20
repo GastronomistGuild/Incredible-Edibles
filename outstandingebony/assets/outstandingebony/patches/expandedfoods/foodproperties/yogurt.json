@@ -1,0 +1,11 @@
+[
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:itemtypes/liquid/yogurt",
+        "op": "addmerge",
+        "path": "/attributes/expandedNutritionPropsByType/@*-(plain|birch|maple|honey|apple|blueberry|cranberry|redcurrant|whitecurrant|blackcurrant|saguaro|pineapple|cherry|peach|pear|orange|mango|breadfruit|lychee|pomegranate)",
+        "value": {
+            "outstandingebony:fruitsyrupportion-*": { "satiety": 12, "health": 0.1, "foodcategory": "Fruit" }
+        }
+    }
+]

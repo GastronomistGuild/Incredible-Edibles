@@ -1,0 +1,63 @@
+{
+    "code": "strongspiritportion",
+    "enabled": false,
+    "class": "ItemLiquidPortion",
+    "matterState": "liquid",
+    "variantgroups": [
+        { "code": "type", "states": [ "ebony" ] }
+    ],
+    "attributes": {
+        "handbook": {
+            "ignoreCreativeInvStacks": true,
+            "groupBy": [ "strongspiritportion-*" ],
+            "extraSections": [ { "title": "expandedfoods:item-handbooktitle-alcoholagingguide", "text": "expandedfoods:item-handbooktext-alcoholagingguide" } ]
+        },
+        "distillationProps": {
+            "distilledStack": { "type": "item", "code": "game:alcoholportion" },
+            "ratio": 0.75
+        },
+        "inBowlShape": { "base": "game:block/food/meal/liquid" },
+        "nutritionPropsPerLitreWhenInMeal": { "satiety": 135, "health": 5, "foodcategory": "NoNutrition", "intoxication": 2.0 },
+        "waterTightContainerProps": {
+            "containable": true,
+            "itemsPerLitre": 100,
+            "texturebytype": {
+                "strongspiritportion-*": { "base": "game:block/food/pie/fill-{type}", "alpha": 120, "overlays": [ "game:item/liquid/syrup" ] }
+            },
+            "allowSpill": true,
+            "whenSpilled": {
+                "action": "DropContents",
+                "stack": { "type": "item", "code": "outstandingebony:strongspiritportion-{type}" }
+            },
+            "nutritionPropsPerLitre": {
+                "satiety": 90,
+                "intoxication": 2.0,
+                "health": 0.5,
+                "foodcategory": "NoNutrition"
+            }
+        }
+    },
+    "transitionableProps": [ {
+            "type": "Cure",
+            "freshHours": { "avg": 13440 },
+            "transitionHours": { "avg": 4032 },
+            "transitionedStack": { "type": "item", "code": "outstandingebony:potentspiritportion-{type}" },
+            "transitionRatio": 1
+        } ],
+    "shape": { "base": "game:item/liquid" },
+    "texturebytype": {
+        "strongspiritportion-*": { "base": "game:block/food/pie/fill-{type}", "alpha": 120, "overlays": [ "game:item/liquid/syrup" ] }
+    },
+    "creativeinventoryStacks": [ { "tabs": [ "general", "liquids", "expandedfoods", "incredibleedibles" ], "stacks": [ { "type": "block", "code": "game:woodbucket", "attributes": { "ucontents": [ { "type": "item", "code": "outstandingebony:strongspiritportion-{type}", "makefull": true } ] } } ] } ],
+    "maxstacksize": 5000,
+    "materialDensity": 200,
+    "nutritionProps": { "satiety": 0.9, "health": 0.005, "foodcategory": "NoNutrition", "intoxication": 0.2 },
+    "guiTransform": {
+        "rotation": { "x": 128, "y": 40, "z": 7 },
+        "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+        "scale": 1.4
+    },
+    "tpHandTransform": {
+        "translation": { "x": -1.5, "y": -1, "z": -1.4 }
+    }
+}

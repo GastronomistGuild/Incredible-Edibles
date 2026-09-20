@@ -1,0 +1,37 @@
+[
+    //Meat Stew
+    {
+        "file": "game:recipes/cooking/meatystew",
+        "op": "addmerge",
+        "path": "/ingredients/7/validStacks",
+        "value": [
+            { "type": "item", "code": "outstandingebony:fruit-ebony", "shapeElement": "bowl/fruit 1/*" }
+        ]
+    },
+    //Porridge
+    {
+        "file": "game:recipes/cooking/porridge",
+        "op": "addmerge",
+        "path": "/ingredients/1/validStacks",
+        "value": [
+            { "type": "item", "code": "outstandingebony:fruit-ebony", "shapeElement": "bowl/fruit 1/*" }
+        ]
+    },
+    {
+        "file": "game:recipes/cooking/porridge",
+        "op": "addmerge",
+        "path": "/ingredients/2/validStacks",
+        "value": [
+            { "type": "item", "code": "outstandingebony:fruit-ebony", "shapeElement": "bowl/fruit 2/*" }
+        ]
+    },
+    //Jam
+    {
+        "file": "game:recipes/cooking/jam",
+        "op": "addmerge",
+        "path": "/ingredients/1/validStacks",
+        "value": [
+            { "type": "item", "code": "outstandingebony:fruit-ebony", "shapeElement": "bowl/fruit/*" }
+        ]
+    }
+]

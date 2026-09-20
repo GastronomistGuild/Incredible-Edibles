@@ -1,0 +1,16 @@
+[
+    {
+        "dependsOn": [ { "modid": "justvinegar" } ],
+        "file": "outstandingebony:recipes/barrel/winetovinegar.json",
+        "op": "replace",
+        "path": "/0/enabled",
+        "value": true
+    },
+    {
+        "dependsOn": [ { "modid": "justvinegar" } ],
+        "file": "outstandingebony:recipes/barrel/winetovinegar.json",
+        "op": "replace",
+        "path": "/1/enabled",
+        "value": true
+    }
+]

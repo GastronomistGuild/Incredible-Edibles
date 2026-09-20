@@ -1,0 +1,116 @@
+[
+    {
+        "op": "add",
+        "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-ebony",
+        "value": [
+            "fruit",
+            "fruit-ebony"
+        ],
+        "file": "game:blocktypes/clay/fired/pot"
+    },
+    {
+        "op": "add",
+        "path": "/textures/fruit-ebony",
+        "value": {
+            "base": "block/food/pie/fill-ebony"
+        },
+        "file": "game:blocktypes/clay/fired/pot"
+    },
+    {
+        "op": "add",
+        "path": "/attributesByType/claypot-blue-cooked/textureMapping/juiceportion-ebony",
+        "value": [
+            "fruit",
+            "fruit-ebony"
+        ],
+        "file": "game:blocktypes/clay/fired/pot"
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "op": "add",
+        "path": "/attributesByType/claypot-blue-cooked/textureMapping/dryfruit-ebony",
+        "value": [
+            "fruit",
+            "fruit-ebony"
+        ],
+        "file": "game:blocktypes/clay/fired/pot"
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "op": "add",
+        "path": "/attributesByType/claypot-blue-cooked/textureMapping/ciderportion-ebony",
+        "value": [
+            "topping",
+            "ebonywine"
+        ],
+        "file": "game:blocktypes/clay/fired/pot"
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "op": "add",
+        "path": "/textures/ebonywine",
+        "value": {
+            "base": "block/food/pie/fill-ebony",
+            "alpha": 180
+        },
+        "file": "game:blocktypes/clay/fired/pot"
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "op": "add",
+        "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruitsyrupportion-ebony",
+        "value": [
+            "topping",
+            "ebonysyrup"
+        ],
+        "file": "game:blocktypes/clay/fired/pot"
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "op": "add",
+        "path": "/textures/ebonysyrup",
+        "value": {
+            "base": "block/food/pie/fill-ebony",
+            "alpha": 220
+        },
+        "file": "game:blocktypes/clay/fired/pot"
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "op": "add",
+        "path": "/attributesByType/claypot-blue-cooked/textureMapping/gelatin-ebony",
+        "value": [
+            "topping",
+            "gelatinebony"
+        ],
+        "file": "game:blocktypes/clay/fired/pot"
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "op": "add",
+        "path": "/textures/gelatinebony",
+        "value": {
+            "base": "item/food/gelatin/ebony"
+        },
+        "file": "game:blocktypes/clay/fired/pot"
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "op": "add",
+        "path": "/attributesByType/claypot-blue-cooked/textureMapping/yogurt-ebony",
+        "value": [
+            "liquid",
+            "yogurtebony"
+        ],
+        "file": "game:blocktypes/clay/fired/pot"
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "op": "add",
+        "path": "/textures/yogurtebony",
+        "value": {
+            "base": "item/liquid/yogurt/ebony"
+        },
+        "file": "game:blocktypes/clay/fired/pot"
+    }
+]

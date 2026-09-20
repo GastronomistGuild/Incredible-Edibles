@@ -1,0 +1,14 @@
+[
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:itemtypes/food/mixing/pemmicanfish",
+        "op": "addmerge",
+        "path": "/attributes/expandedNutritionPropsByType/*-raw",
+        "value": {
+            "outstandingebony:fruit-*": { "saturation": 30, "foodcategory": "Fruit" },
+            "outstandingebony:dryfruit-*": { "saturation": 30, "foodcategory": "Fruit" },
+            "outstandingebony:fruitsyrupportion-*": { "saturation": 6, "health": 0.1, "foodcategory": "Fruit" },
+            "outstandingebony:pressedmash-*": { "saturation": 4, "foodcategory": "Fruit" }
+        }
+    }
+]

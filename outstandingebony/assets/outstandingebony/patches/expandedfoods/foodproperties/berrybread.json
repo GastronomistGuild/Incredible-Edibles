@@ -1,0 +1,68 @@
+[
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:itemtypes/food/mixing/berrybread",
+        "op": "addmerge",
+        "path": "/attributes/expandedNutritionProps",
+        "value": {
+            "outstandingebony:fruitsyrupportion-*": { "saturation": 12, "health": 0.1, "foodcategory": "Fruit" }
+        }
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:itemtypes/food/mixing/berrybread",
+        "op": "addmerge",
+        "path": "/attributes/renderIngredientsByType/*-dough",
+        "value": {
+            "outstandingebony:fruit-*": { "shape": "expandedfoods:shapes/item/food/bread/overlays/fruit/bread.json", "name": "type", "textureMap": { "fruit": "{type}" } },
+            "outstandingebony:dryfruit-*": { "shape": "expandedfoods:shapes/item/food/bread/overlays/fruit/bread.json", "name": "type", "textureMap": { "fruit": "{type}" } },
+            "outstandingebony:candiedfruit-*": { "shape": "expandedfoods:shapes/item/food/bread/overlays/fruit/bread.json", "name": "type", "textureMap": { "fruit": "{type}" } }
+        }
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:itemtypes/food/mixing/berrybread",
+        "op": "addmerge",
+        "path": "/attributes/renderIngredientsByType/@*-(syruppartbaked|partbaked)",
+        "value": {
+            "outstandingebony:fruit-*": { "shape": "expandedfoods:shapes/item/food/bread/overlays/fruit/bread.json", "name": "type", "textureMap": { "fruit": "{type}" } },
+            "outstandingebony:dryfruit-*": { "shape": "expandedfoods:shapes/item/food/bread/overlays/fruit/bread.json", "name": "type", "textureMap": { "fruit": "{type}" } },
+            "outstandingebony:candiedfruit-*": { "shape": "expandedfoods:shapes/item/food/bread/overlays/fruit/bread.json", "name": "type", "textureMap": { "fruit": "{type}" } },
+            "outstandingebony:fruitsyrupportion-*": { "shape": "expandedfoods:shapes/item/food/bread/overlays/syrup/bread.json", "name": "type", "textureMap": { "syrup": "fill-{type}" } }
+        }
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:itemtypes/food/mixing/berrybread",
+        "op": "addmerge",
+        "path": "/attributes/renderIngredientsByType/@*-(syrup|cooked)",
+        "value": {
+            "outstandingebony:fruit-*": { "shape": "expandedfoods:shapes/item/food/bread/overlays/fruit/bread.json", "name": "type", "textureMap": { "fruit": "{type}" } },
+            "outstandingebony:dryfruit-*": { "shape": "expandedfoods:shapes/item/food/bread/overlays/fruit/bread.json", "name": "type", "textureMap": { "fruit": "{type}" } },
+            "outstandingebony:candiedfruit-*": { "shape": "expandedfoods:shapes/item/food/bread/overlays/fruit/bread.json", "name": "type", "textureMap": { "fruit": "{type}" } },
+            "outstandingebony:fruitsyrupportion-*": { "shape": "expandedfoods:shapes/item/food/bread/overlays/syrup/bread.json", "name": "type", "textureMap": { "syrup": "fill-{type}" } }
+        }
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:itemtypes/food/mixing/berrybread",
+        "op": "addmerge",
+        "path": "/attributes/renderIngredientsByType/@*-(syrupcharred|charred)",
+        "value": {
+            "outstandingebony:fruit-*": { "shape": "expandedfoods:shapes/item/food/bread/overlays/fruit/bread.json", "name": "type", "textureMap": { "fruit": "{type}" } },
+            "outstandingebony:dryfruit-*": { "shape": "expandedfoods:shapes/item/food/bread/overlays/fruit/bread.json", "name": "type", "textureMap": { "fruit": "{type}" } },
+            "outstandingebony:candiedfruit-*": { "shape": "expandedfoods:shapes/item/food/bread/overlays/fruit/bread.json", "name": "type", "textureMap": { "fruit": "{type}" } },
+            "outstandingebony:fruitsyrupportion-*": { "shape": "expandedfoods:shapes/item/food/bread/overlays/syrup/bread.json", "name": "type", "textureMap": { "syrup": "fill-{type}" } }
+        }
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:itemtypes/food/mixing/berrybread",
+        "op": "addmerge",
+        "path": "/textures",
+        "value": {
+            "ebony": { "base": "outstandingebony:item/food/grain/overlays/ebony" },
+            "fill-ebony": { "base": "outstandingebony:block/food/pie/fill-ebony" }
+        }
+    }
+]

@@ -1,0 +1,10 @@
+[
+    {
+        "enabled": false,
+        "ingredients": [
+            { "inputs": [ { "type": "item", "code": "outstandingebony:fruitsyrupportion-*", "quantity": 10, "name": "fruit" } ] },
+            { "inputs": [ { "type": "item", "code": "expandedfoods:yogurt-plain", "quantity": 10 } ] }
+        ],
+        "output": { "type": "item", "code": "outstandingebony:yogurt-{fruit}", "stackSize": 20 }
+    }
+]

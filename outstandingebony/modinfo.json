@@ -1,0 +1,14 @@
+{
+    "type": "content",
+    "modid": "outstandingebony",
+    "name": "Outstanding Ebony",
+    "authors": [
+        "LexicalAnomaly"
+    ],
+    "description": "Adds ebony tree fruit and related recipes. Part of the 'Incredible Edibles' series.",
+    "version": "1.0.0",
+    "dependencies": {
+        "game": ""
+    },
+    "Side": "Universal"
+}

@@ -1,0 +1,63 @@
+[
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:itemtypes/food/mixing/stuffedpepper",
+        "op": "addmerge",
+        "path": "/attributes/expandedNutritionProps",
+        "value": {
+            "outstandingebony:fruitsyrupportion-*": { "saturation": 12, "health": 0.1, "foodcategory": "Fruit" }
+        }
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:itemtypes/food/mixing/stuffedpepper",
+        "op": "addmerge",
+        "path": "/attributes/renderIngredientsByType/*-raw",
+        "value": {
+            "outstandingebony:fruit-*": { "shape": "expandedfoods:shapes/item/food/stuffedbellpepper/fruit.json", "name": "type", "textureMap": { "fruit": "{type}" } },
+            "outstandingebony:dryfruit-*": { "shape": "expandedfoods:shapes/item/food/stuffedbellpepper/fruit.json", "name": "type", "textureMap": { "fruit": "{type}" } },
+            "outstandingebony:candiedfruit-*": { "shape": "expandedfoods:shapes/item/food/stuffedbellpepper/fruit.json", "name": "type", "textureMap": { "fruit": "{type}" } }
+        }
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:itemtypes/food/mixing/stuffedpepper",
+        "op": "addmerge",
+        "path": "/attributes/renderIngredientsByType/*",
+        "value": {
+            "outstandingebony:fruit-*": { "shape": "expandedfoods:shapes/item/food/stuffedbellpepper/fruit.json", "name": "type", "textureMap": { "fruit": "{type}" } },
+            "outstandingebony:dryfruit-*": { "shape": "expandedfoods:shapes/item/food/stuffedbellpepper/fruit.json", "name": "type", "textureMap": { "fruit": "{type}" } },
+            "outstandingebony:candiedfruit-*": { "shape": "expandedfoods:shapes/item/food/stuffedbellpepper/fruit.json", "name": "type", "textureMap": { "fruit": "{type}" } }
+        }
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:itemtypes/food/mixing/stuffedpepper",
+        "op": "addmerge",
+        "path": "/texturesByType/*-bare-*",
+        "value": {
+            "ebony": { "base": "outstandingebony:item/food/grain/overlays/ebony" },
+            "fill-ebony": { "base": "outstandingebony:block/food/pie/fill-ebony" }
+        }
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:itemtypes/food/mixing/stuffedpepper",
+        "op": "addmerge",
+        "path": "/texturesByType/@*-(syruppartbaked|syrupcooked|syrupcharred)",
+        "value": {
+            "ebony": { "base": "outstandingebony:item/food/grain/overlays/ebony" },
+            "fill-ebony": { "base": "outstandingebony:block/food/pie/fill-ebony" }
+        }
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:itemtypes/food/mixing/stuffedpepper",
+        "op": "addmerge",
+        "path": "/texturesByType/*",
+        "value": {
+            "ebony": { "base": "outstandingebony:item/food/grain/overlays/ebony" },
+            "fill-ebony": { "base": "outstandingebony:block/food/pie/fill-ebony" }
+        }
+    }
+]

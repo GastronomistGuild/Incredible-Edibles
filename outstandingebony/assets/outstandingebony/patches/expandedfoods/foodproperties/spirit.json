@@ -1,0 +1,24 @@
+[
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "op": "addmerge",
+        "path": "/transitionableProps",
+        "value": [
+            {
+                "type": "Cure",
+                "freshHours": { "avg": 6720 },
+                "transitionHours": { "avg": 2016 },
+                "transitionedStack": { "type": "item", "code": "outstandingebony:strongspiritportion-{fruit}" },
+                "transitionRatio": 1
+            }
+        ],
+        "file": "outstandingebony:itemtypes/liquid/spirit"
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "op": "addmerge",
+        "path": "/attributes/handbook/extraSections",
+        "file": "outstandingebony:itemtypes/liquid/spirit",
+        "value": [ { "title": "expandedfoods:item-handbooktitle-alcoholagingguide", "text": "expandedfoods:item-handbooktext-alcoholagingguide" } ]
+    }
+]

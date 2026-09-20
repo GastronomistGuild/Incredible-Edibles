@@ -1,0 +1,107 @@
+{
+  "editor": {
+    "editorVersion": "VSMC2v0.5.0",
+    "allAngles": true,
+    "backdrops": [ ],
+    "attachments": [ ]
+  },
+  "textureWidth": 16,
+  "textureHeight": 16,
+  "textureSizes": {
+    "ebony": [
+      8,
+      8
+    ],
+    "texture1": [
+      16,
+      16
+    ]
+  },
+  "textures": {
+    "ebony": "outstandingebony:item/food/fruit/ebony",
+    "texture1": "outstandingebony:item/food/gelatin/ebony"
+  },
+  "elements": [
+    {
+      "name": "Ebony Fruit",
+      "from": [ 6.5, 0.6, 6.5 ],
+      "to": [ 9.5, 2.6, 9.5 ],
+      "faces": {
+        "north": { "texture": "#ebony", "uv": [ 0.0, 4.0, 3.0, 6.0 ] },
+        "east": { "texture": "#ebony", "uv": [ 0.0, 6.0, 3.0, 8.0 ] },
+        "south": { "texture": "#ebony", "uv": [ 1.0, 4.0, 4.0, 6.0 ] },
+        "west": { "texture": "#ebony", "uv": [ 1.0, 6.0, 4.0, 8.0 ] },
+        "up": { "texture": "#ebony", "uv": [ 4.5, 4.5, 7.5, 7.5 ] },
+        "down": { "texture": "#ebony", "uv": [ 4.5, 4.5, 7.5, 7.5 ], "windMode": [ -1, -1, -1, -1 ] }
+      },
+      "rotationOrigin": [ 6.5, 0.6, 6.5 ],
+      "uv": [ 0.0, 0.0 ],
+      "children": [
+        {
+          "name": "Ebony Fruit Bottom",
+          "from": [ 0.5, -0.5, 0.5 ],
+          "to": [ 2.5, 0.0, 2.5 ],
+          "faces": {
+            "north": { "texture": "#ebony", "uv": [ 0.0, 4.0, 2.0, 4.5 ] },
+            "east": { "texture": "#ebony", "uv": [ 2.0, 4.0, 4.0, 4.5 ] },
+            "south": { "texture": "#ebony", "uv": [ 2.0, 7.5, 4.0, 8.0 ] },
+            "west": { "texture": "#ebony", "uv": [ 0.0, 7.5, 2.0, 8.0 ] },
+            "up": { "texture": "#ebony", "uv": [ 5.0, 5.0, 7.0, 7.0 ] },
+            "down": { "texture": "#ebony", "uv": [ 4.0, 6.0, 6.0, 8.0 ] }
+          },
+          "rotationOrigin": [ 1.5, -0.25, 1.5 ],
+          "uv": [ 0.0, 0.0 ]
+        },
+        {
+          "name": "Ebony Fruit Top",
+          "from": [ 0.5, 2.0, 0.5 ],
+          "to": [ 2.5, 2.5, 2.5 ],
+          "faces": {
+            "north": { "texture": "#ebony", "uv": [ 2.0, 7.5, 4.0, 8.0 ] },
+            "east": { "texture": "#ebony", "uv": [ 0.0, 7.5, 2.0, 8.0 ] },
+            "south": { "texture": "#ebony", "uv": [ 0.0, 4.0, 2.0, 4.5 ] },
+            "west": { "texture": "#ebony", "uv": [ 2.0, 4.0, 4.0, 4.5 ] },
+            "up": { "texture": "#ebony", "uv": [ 0.0, 0.0, 2.0, 2.0 ] },
+            "down": { "texture": "#ebony", "uv": [ 0.0, 0.0, 2.0, 2.0 ] }
+          },
+          "rotationOrigin": [ 1.5, 2.25, 1.5 ],
+          "uv": [ 0.0, 0.0 ],
+          "children": [ ]
+        }
+      ]
+    },
+    {
+      "name": "Ebony Fruit1",
+      "from": [ 6.4000000953674316, 0.5, 6.4000000953674316 ],
+      "to": [ 9.6000001430511475, 2.7000000476837158, 9.6000001430511475 ],
+      "faces": {
+        "north": { "texture": "#texture1", "uv": [ 0.0, 4.0, 3.0, 6.0 ] },
+        "east": { "texture": "#texture1", "uv": [ 0.0, 6.0, 3.0, 8.0 ] },
+        "south": { "texture": "#texture1", "uv": [ 1.0, 4.0, 4.0, 6.0 ] },
+        "west": { "texture": "#texture1", "uv": [ 1.0, 6.0, 4.0, 8.0 ] },
+        "up": { "texture": "#texture1", "uv": [ 4.5, 4.5, 7.5, 7.5 ] },
+        "down": { "texture": "#texture1", "uv": [ 4.5, 4.5, 7.5, 7.5 ], "windMode": [ -1, -1, -1, -1 ] }
+      },
+      "rotationOrigin": [ 8.0, 1.5, 8.0 ],
+      "uv": [ 0.0, 0.0 ],
+      "children": [
+        {
+          "name": "Ebony Fruit Bottom1",
+          "from": [ 0.5, -0.5, 0.5 ],
+          "to": [ 2.7000000476837158, 2.7000000476837158, 2.7000000476837158 ],
+          "faces": {
+            "north": { "texture": "#texture1", "uv": [ 0.0, 4.0, 2.0, 7.0 ] },
+            "east": { "texture": "#texture1", "uv": [ 2.0, 4.0, 4.0, 7.0 ] },
+            "south": { "texture": "#texture1", "uv": [ 2.0, 7.5, 4.0, 10.5 ] },
+            "west": { "texture": "#texture1", "uv": [ 0.0, 7.5, 2.0, 10.5 ] },
+            "up": { "texture": "#texture1", "uv": [ 5.0, 5.0, 7.0, 7.0 ] },
+            "down": { "texture": "#texture1", "uv": [ 4.0, 6.0, 6.0, 8.0 ] }
+          },
+          "rotationOrigin": [ 1.5, -0.25, 1.5 ],
+          "uv": [ 0.0, 0.0 ]
+        }
+      ]
+    }
+  ],
+  "animations": [ ]
+}

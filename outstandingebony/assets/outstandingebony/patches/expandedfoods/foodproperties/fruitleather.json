@@ -1,0 +1,57 @@
+[
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:itemtypes/food/fruitleather",
+        "op": "addmerge",
+        "path": "/attributes/expandedNutritionProps",
+        "value": {
+            "outstandingebony:fruitsyrupportion-*": { "saturation": 12, "health": 0.1, "foodcategory": "Fruit" },
+            "outstandingebony:pressedmash-ebony": { "saturation": 10, "foodcategory": "Fruit" }
+        }
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:itemtypes/food/fruitleather",
+        "op": "addmerge",
+        "path": "/attributes/renderIngredientsByType/*-wet",
+        "value": {
+            "outstandingebony:pressedmash-*": { "shape": "expandedfoods:shapes/item/food/fruitleather/wet.json", "name": "type", "textureMap": { "fruit": "{type}", "juice": "{type}juice" } }
+        }
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:itemtypes/food/fruitleather",
+        "op": "addmerge",
+        "path": "/attributes/renderIngredientsByType/*-dried",
+        "value": {
+            "outstandingebony:pressedmash-*": { "shape": "expandedfoods:shapes/item/food/fruitleather/dried.json", "name": "type", "textureMap": { "fruit": "{type}" } }
+        }
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:itemtypes/food/fruitleather",
+        "op": "addmerge",
+        "path": "/attributes/renderIngredientsByType/*-sliced",
+        "value": {
+            "outstandingebony:pressedmash-*": { "shape": "expandedfoods:shapes/item/food/fruitleather/sliced.json", "name": "type", "textureMap": { "fruit": "{type}" } }
+        }
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:itemtypes/food/fruitleather",
+        "op": "addmerge",
+        "path": "/texturesByType/*-wet",
+        "value": {
+            "ebony": { "base": "outstandingebony:item/food/fruitleather/ebony" }
+        }
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:itemtypes/food/fruitleather",
+        "op": "addmerge",
+        "path": "/texturesByType/@*-(dried|sliced)",
+        "value": {
+            "ebony": { "base": "outstandingebony:item/food/fruitleather/ebony", "overlays": [ "game:item/fruitleather" ] }
+        }
+    }
+]

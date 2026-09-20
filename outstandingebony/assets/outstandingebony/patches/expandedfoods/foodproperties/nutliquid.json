@@ -1,0 +1,11 @@
+[
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:itemtypes/liquid/nutliquid",
+        "op": "addmerge",
+        "path": "/attributes/expandedNutritionPropsByType/*-butter",
+        "value": {
+            "outstandingebony:fruitsyrupportion-*": { "satiety": 9, "health": 0.1, "foodcategory": "Fruit" }
+        }
+    }
+]

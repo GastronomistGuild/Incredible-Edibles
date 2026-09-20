@@ -1,0 +1,28 @@
+[
+    {
+        "op": "addmerge",
+        "path": "/dropsByType",
+        "value": {
+            "*-ebony": [
+                { "type": "item", "code": "outstandingebony:fruit-ebony", "quantity": { "avg": 0.15, "var": 0 } },
+                { "type": "item", "code": "game:stick", "quantity": { "avg": 1, "var": 0 } },
+                { "type": "item", "code": "game:treeseed-ebony", "quantity": { "avg": 0.025, "var": 0 } }
+            ]
+        },
+        "file": "game:blocktypes/plant/leaves/branchy.json",
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/dropsByType",
+        "value": {
+            "*-ebony": [
+                { "type": "item", "code": "outstandingebony:fruit-ebony", "quantity": { "avg": 0.15, "var": 0 } },
+                { "type": "item", "code": "game:stick", "quantity": { "avg": 0.02, "var": 0 } },
+                { "type": "item", "code": "game:treeseed-ebony", "quantity": { "avg": 0.01, "var": 0 } }
+            ]
+        },
+        "file": "game:blocktypes/plant/leaves/normal.json",
+        "side": "Server"
+    }
+]

@@ -1,0 +1,54 @@
+[
+    //Recipe 1
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:recipes/kneading/fishpemmican",
+        "op": "addeach",
+        "path": "/0/ingredients/1/inputs/-",
+        "value": [
+            { "type": "item", "code": "outstandingebony:fruit-*", "quantity": 1 },
+            { "type": "item", "code": "outstandingebony:dryfruit-*", "quantity": 1 }
+        ]
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:recipes/kneading/fishpemmican",
+        "op": "addeach",
+        "path": "/0/ingredients/2/inputs/-",
+        "value": [
+            { "type": "item", "code": "outstandingebony:fruit-*", "quantity": 1 },
+            { "type": "item", "code": "outstandingebony:dryfruit-*", "quantity": 1 }
+        ]
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:recipes/kneading/fishpemmican",
+        "op": "addeach",
+        "path": "/0/ingredients/3/inputs/-",
+        "value": [
+            { "type": "item", "code": "outstandingebony:fruit-*", "quantity": 1 },
+            { "type": "item", "code": "outstandingebony:dryfruit-*", "quantity": 1 }
+        ]
+    },
+    //Recipe 2
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:recipes/kneading/fishpemmican",
+        "op": "addeach",
+        "path": "/1/ingredients/2/inputs/-",
+        "value": [
+            { "type": "item", "code": "outstandingebony:fruit-*", "quantity": 1 },
+            { "type": "item", "code": "outstandingebony:dryfruit-*", "quantity": 1 }
+        ]
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:recipes/kneading/fishpemmican",
+        "op": "addeach",
+        "path": "/1/ingredients/3/inputs/-",
+        "value": [
+            { "type": "item", "code": "outstandingebony:fruit-*", "quantity": 1 },
+            { "type": "item", "code": "outstandingebony:dryfruit-*", "quantity": 1 }
+        ]
+    }
+]

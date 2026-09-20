@@ -1,0 +1,191 @@
+[
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:recipes/kneading/breadedvegetablesyrup",
+        "op": "addeach",
+        "path": "/0/ingredients/0/inputs/-",
+        "value": [
+            { "type": "item", "code": "outstandingebony:fruitsyrupportion-*", "quantity": 10 }
+        ]
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:recipes/kneading/breadedvegetablesyrup",
+        "op": "addeach",
+        "path": "/1/ingredients/0/inputs/-",
+        "value": [
+            { "type": "item", "code": "outstandingebony:fruitsyrupportion-*", "quantity": 10 }
+        ]
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:recipes/kneading/breadedvegetablesyrup",
+        "op": "addeach",
+        "path": "/2/ingredients/0/inputs/-",
+        "value": [
+            { "type": "item", "code": "outstandingebony:fruitsyrupportion-*", "quantity": 10 }
+        ]
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:recipes/kneading/breadedvegetablesyrup",
+        "op": "addeach",
+        "path": "/3/ingredients/0/inputs/-",
+        "value": [
+            { "type": "item", "code": "outstandingebony:fruitsyrupportion-*", "quantity": 10 }
+        ]
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:recipes/kneading/breadedvegetablesyrup",
+        "op": "addeach",
+        "path": "/4/ingredients/0/inputs/-",
+        "value": [
+            { "type": "item", "code": "outstandingebony:fruitsyrupportion-*", "quantity": 10 }
+        ]
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:recipes/kneading/breadedvegetablesyrup",
+        "op": "addeach",
+        "path": "/5/ingredients/0/inputs/-",
+        "value": [
+            { "type": "item", "code": "outstandingebony:fruitsyrupportion-*", "quantity": 10 }
+        ]
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:recipes/kneading/breadedvegetablesyrup",
+        "op": "addeach",
+        "path": "/6/ingredients/0/inputs/-",
+        "value": [
+            { "type": "item", "code": "outstandingebony:fruitsyrupportion-*", "quantity": 10 }
+        ]
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:recipes/kneading/breadedvegetablesyrup",
+        "op": "addeach",
+        "path": "/7/ingredients/0/inputs/-",
+        "value": [
+            { "type": "item", "code": "outstandingebony:fruitsyrupportion-*", "quantity": 10 }
+        ]
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:recipes/kneading/breadedvegetablesyrup",
+        "op": "addeach",
+        "path": "/8/ingredients/0/inputs/-",
+        "value": [
+            { "type": "item", "code": "outstandingebony:fruitsyrupportion-*", "quantity": 10 }
+        ]
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:recipes/kneading/breadedvegetablesyrup",
+        "op": "addeach",
+        "path": "/9/ingredients/0/inputs/-",
+        "value": [
+            { "type": "item", "code": "outstandingebony:fruitsyrupportion-*", "quantity": 10 }
+        ]
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:recipes/kneading/breadedvegetablesyrup",
+        "op": "addeach",
+        "path": "/10/ingredients/0/inputs/-",
+        "value": [
+            { "type": "item", "code": "outstandingebony:fruitsyrupportion-*", "quantity": 10 }
+        ]
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:recipes/kneading/breadedvegetablesyrup",
+        "op": "addeach",
+        "path": "/11/ingredients/0/inputs/-",
+        "value": [
+            { "type": "item", "code": "outstandingebony:fruitsyrupportion-*", "quantity": 10 }
+        ]
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:recipes/kneading/breadedvegetablesyrup",
+        "op": "addeach",
+        "path": "/12/ingredients/0/inputs/-",
+        "value": [
+            { "type": "item", "code": "outstandingebony:fruitsyrupportion-*", "quantity": 10 }
+        ]
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:recipes/kneading/breadedvegetablesyrup",
+        "op": "addeach",
+        "path": "/13/ingredients/0/inputs/-",
+        "value": [
+            { "type": "item", "code": "outstandingebony:fruitsyrupportion-*", "quantity": 10 }
+        ]
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:recipes/kneading/breadedvegetablesyrup",
+        "op": "addeach",
+        "path": "/14/ingredients/0/inputs/-",
+        "value": [
+            { "type": "item", "code": "outstandingebony:fruitsyrupportion-*", "quantity": 10 }
+        ]
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:recipes/kneading/breadedvegetablesyrup",
+        "op": "addeach",
+        "path": "/15/ingredients/0/inputs/-",
+        "value": [
+            { "type": "item", "code": "outstandingebony:fruitsyrupportion-*", "quantity": 10 }
+        ]
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:recipes/kneading/breadedvegetablesyrup",
+        "op": "addeach",
+        "path": "/16/ingredients/0/inputs/-",
+        "value": [
+            { "type": "item", "code": "outstandingebony:fruitsyrupportion-*", "quantity": 10 }
+        ]
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:recipes/kneading/breadedvegetablesyrup",
+        "op": "addeach",
+        "path": "/17/ingredients/0/inputs/-",
+        "value": [
+            { "type": "item", "code": "outstandingebony:fruitsyrupportion-*", "quantity": 10 }
+        ]
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:recipes/kneading/breadedvegetablesyrup",
+        "op": "addeach",
+        "path": "/18/ingredients/0/inputs/-",
+        "value": [
+            { "type": "item", "code": "outstandingebony:fruitsyrupportion-*", "quantity": 10 }
+        ]
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:recipes/kneading/breadedvegetablesyrup",
+        "op": "addeach",
+        "path": "/19/ingredients/0/inputs/-",
+        "value": [
+            { "type": "item", "code": "outstandingebony:fruitsyrupportion-*", "quantity": 10 }
+        ]
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:recipes/kneading/breadedvegetablesyrup",
+        "op": "addeach",
+        "path": "/20/ingredients/0/inputs/-",
+        "value": [
+            { "type": "item", "code": "outstandingebony:fruitsyrupportion-*", "quantity": 10 }
+        ]
+    }
+]

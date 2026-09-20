@@ -1,0 +1,79 @@
+[
+    {
+        "dependsOn": [ { "modid": "efmealsmodule" } ],
+        "file": "efmealsmodule:recipes/mixing/yogurtmeal",
+        "op": "addmerge",
+        "path": "/ingredients/0/validStacks",
+        "value": [
+            { "type": "item", "code": "outstandingebony:yogurt-ebony", "shapeElement": "bowl/yogurt/*" }
+        ]
+    },
+    {
+        "dependsOn": [ { "modid": "efmealsmodule" } ],
+        "file": "efmealsmodule:recipes/mixing/yogurtmeal",
+        "op": "addmerge",
+        "path": "/ingredients/1/validStacks",
+        "value": [
+            { "type": "item", "code": "outstandingebony:fruit-ebony", "shapeElement": "bowl/fruit 1/*" },
+            { "type": "item", "code": "outstandingebony:dryfruit-ebony", "shapeElement": "bowl/fruit 1/*" }
+        ]
+    },
+    {
+        "dependsOn": [ { "modid": "efmealsmodule" } ],
+        "file": "efmealsmodule:recipes/mixing/yogurtmeal",
+        "op": "addmerge",
+        "path": "/ingredients/2/validStacks",
+        "value": [
+            { "type": "item", "code": "outstandingebony:fruit-ebony", "shapeElement": "bowl/fruit 2/*" },
+            { "type": "item", "code": "outstandingebony:dryfruit-ebony", "shapeElement": "bowl/fruit 2/*" }
+        ]
+    },
+    {
+        "dependsOn": [ { "modid": "efmealsmodule" } ],
+        "file": "efmealsmodule:recipes/mixing/yogurtmeal",
+        "op": "addmerge",
+        "path": "/ingredients/3/validStacks",
+        "value": [
+            { "type": "item", "code": "outstandingebony:fruit-ebony", "shapeElement": "bowl/fruit 3/*" },
+            { "type": "item", "code": "outstandingebony:dryfruit-ebony", "shapeElement": "bowl/fruit 3/*" }
+        ]
+    },
+    {
+        "dependsOn": [ { "modid": "efmealsmodule" } ],
+        "file": "efmealsmodule:recipes/mixing/yogurtmeal",
+        "op": "addmerge",
+        "path": "/ingredients/4/validStacks",
+        "value": [
+            { "type": "item", "code": "outstandingebony:fruit-ebony", "shapeElement": "bowl/fruit 4/*" },
+            { "type": "item", "code": "outstandingebony:dryfruit-ebony", "shapeElement": "bowl/fruit 4/*" }
+        ]
+    },
+    {
+        "dependsOn": [ { "modid": "efmealsmodule" } ],
+        "file": "efmealsmodule:recipes/mixing/yogurtmeal",
+        "op": "addmerge",
+        "path": "/ingredients/5/validStacks",
+        "value": [
+            { "type": "item", "code": "outstandingebony:candiedfruit-ebony", "shapeElement": "bowl/fruit 3/*", "textureMapping": [ "fruit", "fruit-ebony" ] }
+        ]
+    },
+    {
+        "dependsOn": [ { "modid": "efmealsmodule" } ],
+        "file": "efmealsmodule:recipes/mixing/yogurtmeal",
+        "op": "addmerge",
+        "path": "/ingredients/6/validStacks",
+        "value": [
+            { "type": "item", "code": "outstandingebony:candiedfruit-ebony", "shapeElement": "bowl/fruit 3/*", "textureMapping": [ "fruit", "fruit-ebony" ] }
+        ]
+    },
+    {
+        "dependsOn": [ { "modid": "efmealsmodule" } ],
+        "file": "efmealsmodule:recipes/mixing/yogurtmeal",
+        "op": "addmerge",
+        "path": "/ingredients/9/validStacks",
+        "value": [
+            { "type": "item", "code": "outstandingebony:fruitsyrupportion-ebony", "shapeElement": "bowl/topping/*", "textureMapping": [ "topping", "ebonysyrup" ] },
+            { "type": "item", "code": "outstandingebony:gelatin-ebony", "shapeElement": "bowl/topping/*", "textureMapping": [ "topping", "gelatinebony" ] }
+        ]
+    }
+]

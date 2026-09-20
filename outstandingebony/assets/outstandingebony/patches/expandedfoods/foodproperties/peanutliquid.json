@@ -1,0 +1,20 @@
+[
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:itemtypes/liquid/peanutliquid",
+        "op": "addmerge",
+        "path": "/attributes/expandedNutritionPropsByType/*-butter",
+        "value": {
+            "outstandingebony:fruitsyrupportion-*": { "satiety": 9, "health": 0.1, "foodcategory": "Fruit" }
+        }
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "expandedfoods:itemtypes/liquid/peanutliquid",
+        "op": "addmerge",
+        "path": "/attributes/expandedNutritionPropsByType/*-sauce",
+        "value": {
+            "outstandingebony:fruitsyrupportion-*": { "satiety": 6, "health": 0.1, "foodcategory": "Fruit" }
+        }
+    }
+]

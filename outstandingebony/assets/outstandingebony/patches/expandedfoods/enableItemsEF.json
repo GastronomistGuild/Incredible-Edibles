@@ -1,0 +1,65 @@
+[
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "outstandingebony:itemtypes/food/expandedfoods/dryfruit",
+        "op": "replace",
+        "path": "/enabled",
+        "value": true
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "outstandingebony:itemtypes/food/expandedfoods/candiedfruit",
+        "op": "replace",
+        "path": "/enabled",
+        "value": true
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "outstandingebony:itemtypes/food/expandedfoods/gelatin",
+        "op": "replace",
+        "path": "/enabled",
+        "value": true
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "outstandingebony:itemtypes/liquid/expandedfoods/fruitsyrup",
+        "op": "replace",
+        "path": "/enabled",
+        "value": true
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "outstandingebony:itemtypes/liquid/expandedfoods/strongspirit",
+        "op": "replace",
+        "path": "/enabled",
+        "value": true
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "outstandingebony:itemtypes/liquid/expandedfoods/strongwine",
+        "op": "replace",
+        "path": "/enabled",
+        "value": true
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "outstandingebony:itemtypes/liquid/expandedfoods/potentspirit",
+        "op": "replace",
+        "path": "/enabled",
+        "value": true
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "outstandingebony:itemtypes/liquid/expandedfoods/potentwine",
+        "op": "replace",
+        "path": "/enabled",
+        "value": true
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "outstandingebony:itemtypes/liquid/expandedfoods/yogurt",
+        "op": "replace",
+        "path": "/enabled",
+        "value": true
+    }
+]
