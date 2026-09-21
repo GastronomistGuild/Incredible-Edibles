@@ -1,0 +1,6 @@
+1.0.1
+-Fixed issue with trailmix and vegetarian trailmix patch paths
+-Fixed incorrect domain for vinegar spoilage with just vinegar enabled
+-Ebony fruit mash can now be added to troughs to feed any animal that eats fruit mash
+-Fixed vegetable stew toppings with expanded foods
+-Reorganized compatibility files to hopefully prevent future load order issues 

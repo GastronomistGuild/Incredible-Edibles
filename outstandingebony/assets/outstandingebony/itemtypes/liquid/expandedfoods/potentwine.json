@@ -37,6 +37,7 @@
                 }
             }
         },
+        "hydration": 700,
         "distillationPropsbytype": {
             "potentwineportion-*": {
                 "distilledStack": { "type": "item", "code": "outstandingebony:spiritportion-{fruit}" },

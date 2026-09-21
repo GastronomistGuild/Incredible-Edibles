@@ -39,7 +39,8 @@
                 "distilledStack": { "type": "item", "code": "outstandingebony:spiritportion-{fruit}" },
                 "ratio": 0.2
             }
-        }
+        },
+        "hydration": 700
     },
     "transitionableProps": [ {
             "type": "Perish",

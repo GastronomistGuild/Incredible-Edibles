@@ -7,7 +7,7 @@
             { "type": "item", "code": "outstandingebony:ciderportion-*", "litres": 25, "name": "ciderportion" },
             { "type": "item", "code": "game:pickledvegetable-*", "name": "pickledvegetable", "quantity": 1, "allowedVariants": [ "carrot", "cabbage", "onion", "turnip", "parsnip", "pumpkin", "bellpepper", "olive", "fennel" ] }
         ],
-        "output": { "type": "item", "code": "vinegarportion", "litres": 25 }
+        "output": { "type": "item", "code": "game:vinegarportion", "litres": 25 }
     },
     {
         "enabled": false,
@@ -17,6 +17,6 @@
             { "type": "item", "code": "outstandingebony:ciderportion-*", "litres": 25, "name": "ciderportion" },
             { "type": "item", "code": "game:pickledlegume-*", "name": "pickledlegume", "quantity": 1, "allowedVariants": [ "soybean" ] }
         ],
-        "output": { "type": "item", "code": "vinegarportion", "litres": 25 }
+        "output": { "type": "item", "code": "game:vinegarportion", "litres": 25 }
     }
 ]

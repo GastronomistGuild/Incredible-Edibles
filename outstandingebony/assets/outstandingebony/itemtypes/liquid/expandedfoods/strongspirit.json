@@ -35,7 +35,8 @@
                 "health": 0.5,
                 "foodcategory": "NoNutrition"
             }
-        }
+        },
+        "hydration": 300
     },
     "transitionableProps": [ {
             "type": "Cure",

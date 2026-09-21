@@ -4,7 +4,7 @@
         "file": "outstandingebony:itemtypes/liquid/cider.json",
         "op": "replace",
         "path": "/transitionableProps/0/transitionedStack/code",
-        "value": "vinegarportion"
+        "value": "game:vinegarportion"
     },
     {
         "dependsOn": [ { "modid": "justvinegar" } ],

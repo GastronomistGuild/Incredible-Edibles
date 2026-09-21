@@ -54,7 +54,8 @@
     //Vegetable Stew
     {
         "dependsOn": [ { "modid": "expandedfoods" } ],
-        "file": "game:recipes/cooking/vegetablestew",
+        "file": "game:recipes/cooking/vegetablestew.json",
+        "side": "server",
         "op": "addmerge",
         "path": "/ingredients/4/validStacks",
         "value": [

@@ -101,7 +101,7 @@
         "dependsOn": [ { "modid": "expandedfoods" } ],
         "file": "expandedfoods:recipes/kneading/trailmixvegetarian",
         "op": "addeach",
-        "path": "/7/ingredients/5/inputs/-",
+        "path": "/7/ingredients/4/inputs/-",
         "value": [
             { "type": "item", "code": "outstandingebony:dryfruit-*", "quantity": 3 }
         ]
