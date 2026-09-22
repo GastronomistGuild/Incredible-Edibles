@@ -39,7 +39,7 @@
                 "foodcategory": "NoNutrition"
             }
         },
-        "hydration": 300
+        "hydration": 630
     },
     "shape": { "base": "game:item/liquid" },
     "texturebytype": {

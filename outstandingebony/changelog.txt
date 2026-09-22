@@ -4,3 +4,4 @@
 -Ebony fruit mash can now be added to troughs to feed any animal that eats fruit mash
 -Fixed vegetable stew toppings with expanded foods
 -Reorganized compatibility files to hopefully prevent future load order issues 
+-Also added Hydrate or Diedrate compatibility

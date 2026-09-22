@@ -66,7 +66,8 @@
         },
         "inContainerTextureByType": {
             "*": { "base": "outstandingebony:block/barrel/{fruit}" }
-        }
+        },
+        "hydration": -2
     },
     "shapebytype": {
         "*": { "base": "outstandingebony:item/food/candy/fruit/{fruit}" }

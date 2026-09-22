@@ -37,7 +37,8 @@
                 "expandedfoods:treesyrupportion-*": { "satiety": 9.6, "health": 0.1, "foodcategory": "Fruit" },
                 "outstandingebony:fruitsyrupportion-*": { "satiety": 12, "health": 0.1, "foodcategory": "Fruit" }
             }
-        }
+        },
+        "hydration": 50
     },
     "variantgroups": [
         { "code": "type", "states": [ "ebony" ] }

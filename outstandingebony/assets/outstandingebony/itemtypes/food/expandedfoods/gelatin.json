@@ -13,7 +13,8 @@
         },
         "inPiePropertiesByType": {
             "*": { "texture": "outstandingebony:item/gelatin/{type}", "partType": "Filling" }
-        }
+        },
+        "hydration": 1
     },
     "transitionableProps": [ {
             "type": "Perish",
