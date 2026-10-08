@@ -5,3 +5,6 @@
 -Fixed vegetable stew toppings with expanded foods
 -Reorganized compatibility files to hopefully prevent future load order issues 
 -Also added Hydrate or Diedrate compatibility
+
+1.0.2
+-Removed nutliquid patch for Expanded Foods since nutliquid was removed in 2.0.0-dev.15
