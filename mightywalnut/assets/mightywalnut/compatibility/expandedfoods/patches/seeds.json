@@ -1,0 +1,31 @@
+[
+	{
+		"op": "addmerge",
+    	"path": "/attributes",
+    	"value": {
+    		"juiceableProperties": {
+				"litresPerItem": 0.078125,
+				"liquidStack": { "type": "item", "code": "expandedfoods:foodoilportion-seed", "stacksize": 1 },
+				"pressedStack": { "type": "item", "code": "game:pressedmash-seed", "stacksize": 1 }
+			}
+    	},
+    	"side": "server",
+    	"file": "game:itemtypes/resource/seeds.json"
+  	},
+  	{
+    	"op": "replace",
+		"file": "mightywalnut:itemtypes/food/walnut.json",
+    	"path": "/attributes/inPiePropertiesByType",
+    	"value": { "@*-(shelled|roasted)": {"texture": "mightywalnut:block/food/pie/fill-walnut","partType": "Filling", "foodCategory": "Vegetable", "mixingCodes": ["nutpie",
+       		"bellpepperwalnut","cabbagewalnut","carrotwalnut","cassavawalnut","fennelwalnut","olivewalnut","onionwalnut","parsnipwalnut","pumpkinwalnut","turnipwalnut","bellpeppernut","cabbagenut","carrotnut","cassavanut","fennelnut","olivenut","onionnut","parsnipnut","pumpkinnut","turnipnut","vegetablenut",
+    		"soywalnut", "soynut",
+	       	"walnutapple", "walnutbeautyberry","walnutblackberry", "walnutblackcurrant", "walnutblueberry", "walnutbreadfruit", "walnutcactusfruit", "walnutcherry", "walnutcloudberry", "walnutcranberry", "walnutgooseberry", "walnutguava","walnutkumquat", "walnutlychee", "walnutmango", "walnutorange", "walnutpeach", "walnutpear", "walnutpineapple", "walnutplumnatal", "walnutpomegranate", "walnutraspberry", "walnutredcurrant", "walnutsaguaro", "walnutstrawberry", "walnutwhitecurrant", "nutfruit",
+    	   	"bushmeatwalnut", "poultrywalnut", "redmeatwalnut","fishwalnut", "bugwalnut","bushmeatnut", "poultrynut", "redmeatnut","fishnut","bugnut", "nutmeat",
+			"walnutquiche",
+       		"nutmeatveg",
+	       	"soyfruitnut","soynutmushroom",
+    	   	"nutfruitmeatveg"]
+		}},
+	"side": "server"
+  	} 
+]
