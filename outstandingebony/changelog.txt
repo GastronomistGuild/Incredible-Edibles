@@ -8,3 +8,7 @@
 
 1.0.2
 -Removed nutliquid patch for Expanded Foods since nutliquid was removed in 2.0.0-dev.15
+
+1.0.3
+-Fixed some potential compatibility overlap issues with other mods
+-Added topping support for candied fruit, syrup, and gelatin

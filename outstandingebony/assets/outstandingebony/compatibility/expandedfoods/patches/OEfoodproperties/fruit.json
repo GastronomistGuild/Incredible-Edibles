@@ -1,0 +1,36 @@
+[
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "op": "addmerge",
+        "path": "/attributes/bakingProperties",
+        "value": {
+            "temp": 100,
+            "levelFrom": 0.0,
+            "levelTo": 0.5,
+            "startScaleY": 1.0,
+            "endScaleY": 0.8,
+            "resultCode": "outstandingebony:dryfruit-{fruit}"
+        },
+        "file": "outstandingebony:itemtypes/food/fruit"
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "op": "addmerge",
+        "path": "/attributes/inPiePropertiesByType",
+        "value": {
+            "*": { "texture": "outstandingebony:block/food/pie/fill-{fruit}", "partType": "Filling", "mixingCodes": [
+                    "cottagefruit",
+                    "nutfruit",
+                    "bushmeatfruit", "poultryfruit", "redmeatfruit", "fishfruit", "bugfruit", "meatfruit",
+                    "fruitmushroom",
+                    "soyfruit",
+                    "meatfruitveg",
+                    "soyfruitnut",
+                    "nutfruitmeatveg"
+                ]
+            }
+        },
+        "side": "server",
+        "file": "outstandingebony:itemtypes/food/fruit.json"
+    }
+]

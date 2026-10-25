@@ -32,7 +32,17 @@
             }
         },
         "inPiePropertiesByType": {
-            "dryfruit-*": { "texture": "outstandingebony:block/food/pie/fill-{fruit}", "partType": "Filling" }
+            "*": { "texture": "outstandingebony:block/food/pie/fill-{fruit}", "partType": "Filling", "portionSize": 4, "mixingCodes": [
+                    "cottagefruit",
+                    "nutfruit",
+                    "bushmeatfruit", "poultryfruit", "redmeatfruit", "fishfruit", "bugfruit", "meatfruit",
+                    "fruitmushroom",
+                    "soyfruit",
+                    "meatfruitveg",
+                    "soyfruitnut",
+                    "nutfruitmeatveg"
+                ]
+            }
         },
         "groundStorageTransformByType": {
             "*": {

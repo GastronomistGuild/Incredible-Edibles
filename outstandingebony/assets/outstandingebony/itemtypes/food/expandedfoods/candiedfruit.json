@@ -21,8 +21,16 @@
             },
             "foodcategory": "Fruit"
         },
-        "inPiePropertiesByType": {
-            "*": { "texture": "outstandingebony:block/food/pie/fill-{fruit}", "partType": "Filling" }
+        "inPieProperties": { "texture": "outstandingebony:item/food/gelatin/{fruit}", "partType": "Topping", "toppingShapeElement": "origin/base/topping candy/*", "mixingCodes": [
+                "cottage{fruit}", "cottagefruit",
+                "walnut{fruit}", "peanut{fruit}", "nutfruit",
+                "bushmeat{fruit}", "poultry{fruit}", "redmeat{fruit}", "fish{fruit}", "bug{fruit}", "bushmeatfruit", "poultryfruit", "redmeatfruit", "fishfruit", "bugfruit", "meatfruit",
+                "fruitmushroom",
+                "soyfruit",
+                "soyfruitnut",
+                "meatfruitveg",
+                "nutfruitmeatveg"
+            ]
         },
         "groundStorageTransformByType": {
             "*": {

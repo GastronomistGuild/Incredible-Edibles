@@ -13,10 +13,21 @@
             "extraSections": [ { "title": "expandedfoods:item-handbooktitle-fruitsyrupportion", "text": "expandedfoods:item-handbooktext-fruitsyrupportion" } ]
         },
         "inBowlShape": { "base": "game:block/food/meal/liquid" },
-        "inPieProperties": {
-            "texture": "outstandingebony:block/food/pie/fill-{type}",
-            "partType": "Filling"
-        },
+        "inPieProperties": { 
+            "texture": "game:block/food/pie/fill-{type}",
+            "partType": "Topping",
+            "toppingShapeElement": "origin/base/topping syrup gear/*",
+            "mixingCodes": [
+                "cottage{type}","cottagefruit",
+                "walnut{type}", "peanut{type}", "nutfruit",
+                "bushmeat{type}", "poultry{type}","redmeat{type}","fish{type}","bug{type}", "bushmeatfruit", "poultryfruit","redmeatfruit","fishfruit","bugfruit", "meatfruit",
+                "fruitmushroom",
+                "soyfruit",
+                "soyfruitnut",
+                "meatfruitveg",
+                "nutfruitmeatveg"
+            ]
+		},
         "waterTightContainerProps": {
             "nutritionPropsPerLitreWhenInMeal": {
                 "satiety": 1200,

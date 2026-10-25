@@ -11,8 +11,16 @@
             "groupBy": [ "gelatin-*" ],
             "extraSections": [ { "title": "expandedfoods:item-handbooktitle-gelatin", "text": "expandedfoods:item-handbooktext-gelatin" } ]
         },
-        "inPiePropertiesByType": {
-            "*": { "texture": "outstandingebony:item/gelatin/{type}", "partType": "Filling" }
+        "inPieProperties": { "texture": "outstandingebony:item/food/gelatin/{type}", "partType": "Topping", "toppingShapeElement": "origin/base/topping locust/*", "mixingCodes": [
+                "cottage{fruit}", "cottagefruit",
+                "walnut{fruit}", "peanut{fruit}", "nutfruit",
+                "bushmeat{fruit}", "poultry{fruit}", "redmeat{fruit}", "fish{fruit}", "bug{fruit}", "bushmeatfruit", "poultryfruit", "redmeatfruit", "fishfruit", "bugfruit", "meatfruit",
+                "fruitmushroom",
+                "soyfruit",
+                "soyfruitnut",
+                "meatfruitveg",
+                "nutfruitmeatveg"
+            ]
         },
         "hydration": 1
     },
