@@ -4,7 +4,7 @@
         "file": "efmealsmodule:recipes/mixing/yogurtmeal.json",
         "path": "/ingredients/0/validStacks/-",
         "value": [
-            {"type": "item", "code": "efmealsmodule:yogurt-walnut",  "shapeElement": "bowl/yogurt/*", "textureMapping": ["liquid", "yogurtwalnut"]}
+            {"type": "item", "code": "expandedfoods:yogurt-walnut",  "shapeElement": "bowl/yogurt/*", "textureMapping": ["liquid", "yogurtwalnut"]}
         ],
         "side": "Server",
         "dependsOn": [{"modid": "efmealsmodule"}]
@@ -36,8 +36,8 @@
         "file": "efmealsmodule:recipes/mixing/yogurtmeal.json",
         "path": "/ingredients/9/validStacks/-",
         "value": [
-            {"type": "item", "code": "efmealsmodule:treesyrupportion-walnut",  "shapeElement": "bowl/topping/*", "textureMapping": ["topping", "walnutsyrup"]},
-            {"type": "item", "code": "efmealsmodule:gelatin-walnut",  "shapeElement": "bowl/topping/*", "textureMapping": ["topping", "gelatinwalnut"]}
+            {"type": "item", "code": "expandedfoods:treesyrupportion-walnut",  "shapeElement": "bowl/topping/*", "textureMapping": ["topping", "walnutsyrup"]},
+            {"type": "item", "code": "expandedfoods:gelatin-walnut",  "shapeElement": "bowl/topping/*", "textureMapping": ["topping", "gelatinwalnut"]}
         ],
         "side": "Server",
         "dependsOn": [{"modid": "efmealsmodule"}]

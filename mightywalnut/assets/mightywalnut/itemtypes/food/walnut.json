@@ -34,7 +34,7 @@
 			"@*-(shelled|roasted)": ["peanut"]
 		},
 		"inPiePropertiesByType": {
-			"@*-(shelled|roasted)": { "texture": "mightywalnut:block/food/pie/fill-walnut", "partType": "Filling" }
+			"@*-(shelled|roasted)": { "texture": "mightywalnut:block/food/pie/fill-walnut", "partType": "Filling", "foodCategory": "Vegetable", "mixingCodes":["potpie"] }
 		},
 		"bakingPropertiesByType": {
 			"*-shelled": {
