@@ -16,5 +16,7 @@
     "expandedfoods:item-candy-roastedpumpkinseed-raw": "Roasted pumpkin seed candy",
 
     "incrediblegourd:itemdesc-pumpkinseed-raw": "A crunchy snack hiding in the wet guts of a pumpkin. Roast them for something even better!",
-    "incrediblegourd:itemdesc-pumpkinseed-roasted": "A crunchy snack, made better with a little heat and time."
+    "incrediblegourd:itemdesc-pumpkinseed-roasted": "A crunchy snack, made better with a little heat and time.",
+
+    "game:tabname-incredibleedibles": "Incredible Edibles"
 }
