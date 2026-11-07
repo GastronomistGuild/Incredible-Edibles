@@ -1,0 +1,58 @@
+[
+	{
+		"op": "addmerge",
+		"file": "foodshelves:config/restrictions/baskets/fruitbasket.json",
+		"path": "/CollectibleCodes/-",
+		"value": "outstandingebony:fruit-*",
+		"side": "server",
+		"dependsOn": [ { "modid": "foodshelves" } ]
+	},
+	{
+		"op": "addmerge",
+		"file": "foodshelves:config/restrictions/baskets/fruitbasket.json",
+		"path": "/CollectibleCodes/-",
+		"value": "outstandingebony:dryfruit-*",
+		"side": "server",
+		"dependsOn": [ { "modid": "foodshelves" } ]
+	},
+	{
+		"op": "addmerge",
+		"file": "foodshelves:config/restrictions/baskets/fruitbasket.json",
+		"path": "/CollectibleCodes/-",
+		"value": "outstandingebony:candiedfruit-*",
+		"side": "server",
+		"dependsOn": [ { "modid": "foodshelves" } ]
+	},
+	{
+		"file": "foodshelves:config/restrictions/coolers/fruitcooler.json",
+		"op": "addmerge",
+		"path": "/CollectibleCodes/-",
+		"value": "outstandingebony:fruit-*",
+		"side": "Server",
+		"dependsOn": [ { "modid": "foodshelves" } ]
+	},
+	{
+		"file": "foodshelves:config/restrictions/coolers/fruitcooler.json",
+		"op": "addmerge",
+		"path": "/CollectibleCodes/-",
+		"value": "outstandingebony:dryfruit-*",
+		"side": "Server",
+		"dependsOn": [ { "modid": "foodshelves" } ]
+	},
+	{
+		"file": "foodshelves:config/restrictions/coolers/fruitcooler.json",
+		"op": "addmerge",
+		"path": "/CollectibleCodes/-",
+		"value": "outstandingebony:candiedfruit-*",
+		"side": "Server",
+		"dependsOn": [ { "modid": "foodshelves" } ]
+	},
+	{
+		"file": "foodshelves:config/restrictions/general/liquidystuff.json",
+		"op": "addmerge",
+		"path": "/CollectibleCodes/-",
+		"value": "outstandingebony:gelatin-*",
+		"side": "Server",
+		"dependsOn": [ { "modid": "foodshelves" } ]
+	}
+]
