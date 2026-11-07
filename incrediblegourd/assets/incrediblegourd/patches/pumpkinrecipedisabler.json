@@ -4,15 +4,13 @@
 		"file": "game:recipes/grid/pumpkinseed.json",
 		"path": "/enabled",
 		"value": false,
-		"dependsOn": [{ "modid": "expandedfoods" }],
-        "side": "Server"
+		"side": "Server"
 	},
 	{
 		"op": "addmerge",
 		"file": "game:recipes/grid/pumpkinslice.json",
 		"path": "/enabled",
 		"value": false,
-		"dependsOn": [{ "modid": "expandedfoods" }],
-        "side": "Server"
+		"side": "Server"
 	}
 ]
