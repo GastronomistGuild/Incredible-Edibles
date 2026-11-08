@@ -1,6 +1,7 @@
 [
 	{
 		"ingredientPattern": "K,P",
+		"recipegroup": 1,
 		"shapeless": true,
 		"ingredients": {
 			"K": { "type": "item", "tags": ["tool-knife"], "isTool": true },
@@ -12,6 +13,7 @@
 	},
 	{
 		"ingredientPattern": "K,P",
+		"recipegroup": 2,
 		"shapeless": true,
 		"ingredients": {
 			"K": { "type": "item", "tags": ["tool-cleaver"], "isTool": true },

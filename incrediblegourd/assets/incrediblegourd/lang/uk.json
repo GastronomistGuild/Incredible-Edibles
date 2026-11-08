@@ -1,0 +1,20 @@
+{
+    "incrediblegourd:item-pumpkinseed-raw": "Сире гарбузове насіння",
+    "incrediblegourd:item-pumpkinseed-roasted": "Смажене гарбузове насіння",
+
+    "game:recipeingredient-item-pumpkinseed-raw": "гарбузове насіння",
+    "game:recipeingredient-item-pumpkinseed-raw-insturmentalcase": "гарбузовим насінням",
+    "recipeingredient-item-pumpkinseed-raw": "гарбузове насіння",
+    "recipeingredient-item-pumpkinseed-raw-insturmentalcase": "гарбузовим насінням",
+
+    "game:recipeingredient-item-pumpkinseed-roasted": "гарбузове насіння",
+    "game:recipeingredient-item-pumpkinseed-roasted-insturmentalcase": "гарбузовим насінням",
+    "recipeingredient-item-pumpkinseed-roasted": "гарбузове насіння",
+    "recipeingredient-item-pumpkinseed-roasted-insturmentalcase": "гарбузовим насінням",
+
+    "expandedfoods:item-candy-pumpkinseed-raw": "Гарбузові козинаки із сирого насіння",
+    "expandedfoods:item-candy-roastedpumpkinseed-raw": "Гарбузові козинаки зі смаженого насіння",
+
+    "incrediblegourd:itemdesc-pumpkinseed-raw": "Хрусткий перекус, що ховався у м'якоті гарбуза. Підсмажте його, щоб отримати дещо навіть краще!",
+    "incrediblegourd:itemdesc-pumpkinseed-roasted": "Хрусткий перекус, покращений жаром і часом."
+}

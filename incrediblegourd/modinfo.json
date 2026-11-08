@@ -2,7 +2,7 @@
   "type": "content",
   "textureSize": 32,
   "name": "The Incredible Gourd",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "networkVersion": "1.0.0",
   "description": "Making pumpkins (and other gourds) more worth the effort.",
   "modID": "incrediblegourd",
