@@ -1,0 +1,196 @@
+{
+    //Item Names
+
+    "item-fruit-ebony": "Dattelpflaume",
+    "item-juiceportion-ebony": "Dattelpflaumensaft",
+    "incontainer-item-juiceportion-ebony": "Dattelpflaumensaft",
+    "item-ciderportion-ebony": "Dattelpflaumenwein",
+    "incontainer-item-ciderportion-ebony": "Dattelpflaumenwein",
+    "item-spiritportion-ebony": "Dattelpflaumenbrand",
+    "incontainer-item-spiritportion-ebony": "Dattelpflaumenbrand",
+    "item-pressedmash-ebony-dry": "Trockene gepresste Dattelpflaumen",
+    "item-pressedmash-ebony-wet": "Feuchte gepresste Dattelpflaumen",
+
+    //EF Item Names
+
+    "item-candiedfruit-ebony": "Kandierte Dattelpflaumen",
+    "item-dryfruit-ebony": "Getrocknete Dattelpflaumen",
+    "item-gelatin-ebony": "Dattelpflaumen-Gelatine",
+    "item-fruitsyrupportion-ebony": "Portion Dattelpflaumensirup",
+    "incontainer-item-fruitsyrupportion-ebony": "Dattelpflaumensirup",
+    "item-potentspiritportion-ebony": "Portion Dattelpflaumenqualitätswein",
+    "incontainer-item-potentspiritportion-ebony": "Dattelpflaumenqualitätswein",
+    "item-potentwineportion-ebony": "Erlesener Portion Dattelpflaumenwein",
+    "incontainer-item-potentwineportion-ebony": "Erlesener Dattelpflaumenwein",
+    "item-strongspiritportion-ebony": "Gealterte Portion Dattelpflaumenbrand",
+    "incontainer-item-strongspiritportion-ebony": "Gealterter Dattelpflaumenbrand",
+    "item-strongwineportion-ebony": "Starke Portion Dattelpflaumenbrand",
+    "incontainer-item-strongwineportion-ebony": "Starker Dattelpflaumenbrand",
+    "item-yogurt-ebony": "Portion Dattelpflaumen-Joghurt",
+    "incontainer-item-yogurt-ebony": "Dattelpflaumen-Joghurt",
+
+    //Meal Ingredients
+
+    "outstandingebony:recipeingredient-item-fruit-ebony-insturmentalcase": "Dattelpflaumen",
+    "outstandingebony:recipeingredient-item-fruit-ebony-topping": "Dattelpflaumen",
+    "game:recipeingredient-item-fruit-ebony-insturmentalcase": "Dattelpflaumen",
+    "game:recipeingredient-item-fruit-ebony": "Dattelpflaumen",
+    "game:meal-ingredient-soup-primary-fruit-ebony": "Dattelpflaumen",
+    "game:meal-ingredient-soup-secondary-fruit-ebony": "Dattelpflaumen",
+    "game:meal-ingredient-stew-primary-fruit-ebony": "Dattelpflaumen",
+    "game:meal-ingredient-stew-secondary-fruit-ebony": "Dattelpflaumen",
+
+    "outstandingebony:recipeingredient-item-juiceportion-ebony-insturmentalcase": "Dattelpflaumensaft",
+    "outstandingebony:recipeingredient-item-juiceportion-ebony-topping": "Dattelpflaumensaft",
+    "game:meal-ingredient-soup-primary-juiceportion-ebony": "Dattelpflaumensaft",
+    "game:meal-ingredient-soup-secondary-juiceportion-ebony": "Dattelpflaumensaft",
+    "game:meal-ingredient-stew-primary-juiceportion-ebony": "Dattelpflaumensaft",
+    "game:meal-ingredient-stew-secondary-juiceportion-ebony": "Dattelpflaumensaft",
+
+    "outstandingebony:recipeingredient-item-ciderportion-ebony-insturmentalcase": "Dattelpflaumenwein",
+    "outstandingebony:recipeingredient-item-ciderportion-ebony-topping": "Dattelpflaumenwein",
+    "game:meal-ingredient-soup-primary-ciderportion-ebony": "Dattelpflaumenwein",
+    "game:meal-ingredient-soup-secondary-ciderportion-ebony": "Dattelpflaumenwein",
+    "game:meal-ingredient-stew-primary-ciderportion-ebony": "Dattelpflaumenwein",
+    "game:meal-ingredient-stew-secondary-ciderportion-ebony": "Dattelpflaumenwein",
+
+    "outstandingebony:recipeingredient-item-spiritportion-ebony-insturmentalcase":  "Dattelpflaumenbrand",
+    "outstandingebony:recipeingredient-item-spiritportion-ebony-topping":           "Dattelpflaumenbrand",
+    "game:meal-ingredient-soup-primary-spiritportion-ebony":                        "Dattelpflaumenbrand",
+    "game:meal-ingredient-soup-secondary-spiritportion-ebony":                      "Dattelpflaumenbrand",
+    "game:meal-ingredient-stew-primary-spiritportion-ebony":                        "Dattelpflaumenbrand",
+    "game:meal-ingredient-stew-secondary-spiritportion-ebony":                      "Dattelpflaumenbrand",
+    
+    //EF Meal Ingredients 
+
+    "outstandingebony:recipeingredient-item-dryfruit-ebony-insturmentalcase": "getrockneten Dattelpflaumen",
+    "game:recipeingredient-item-dryfruit-ebony-insturmentalcase": "getrockneten Dattelpflaumen",
+    "outstandingebony:recipeingredient-item-dryfruit-ebony-topping": "getrockneten Dattelpflaumen",
+    "outstandingebony:recipeingredient-item-dryfruit-ebony": "getrockneten Dattelpflaumen",
+    "game:recipeingredient-item-dryfruit-ebony": "getrockneten Dattelpflaumen",
+    "game:meal-ingredient-soup-primary-dryfruit-ebony": "getrockneten Dattelpflaumen",
+    "game:meal-ingredient-soup-secondary-dryfruit-ebony": "getrockneten Dattelpflaumen",
+    "game:meal-ingredient-stew-primary-dryfruit-ebony": "getrockneten Dattelpflaumen",
+    "game:meal-ingredient-stew-secondary-dryfruit-ebony": "getrockneten Dattelpflaumen",
+
+    "outstandingebony:recipeingredient-item-candiedfruit-ebony-insturmentalcase": "kandierten Dattelpflaumen",
+    "outstandingebony:recipeingredient-item-candiedfruit-ebony": "kandierten Dattelpflaumen",
+    "game:recipeingredient-item-candiedfruit-ebony-insturmentalcase": "kandierten Dattelpflaumen",
+    "game:recipeingredient-item-candiedfruit-ebony": "kandierten Dattelpflaumen",
+    "outstandingebony:recipeingredient-item-candiedfruit-ebony-topping": "kandierten Dattelpflaumen",
+    "game:meal-ingredient-soup-primary-candiedfruit-ebony": "kandierten Dattelpflaumen",
+    "game:meal-ingredient-soup-secondary-candiedfruit-ebony": "kandierten Dattelpflaumen",
+    "game:meal-ingredient-stew-primary-candiedfruit-ebony": "kandierten Dattelpflaumen",
+    "game:meal-ingredient-stew-secondary-candiedfruit-ebony": "kandierten Dattelpflaumen",
+
+    "outstandingebony:recipeingredient-item-gelatin-ebony-insturmentalcase":    "Dattelpflaumen-Gelatine",
+    "outstandingebony:recipeingredient-item-gelatin-ebony":                     "Dattelpflaumen-Gelatine",
+    "game:recipeingredient-item-gelatin-ebony-insturmentalcase":                "Dattelpflaumen-Gelatine",
+    "game:recipeingredient-item-gelatin-ebony":                                 "Dattelpflaumen-Gelatine",
+    "outstandingebony:recipeingredient-item-gelatin-ebony-topping":             "Dattelpflaumen-Gelatine",
+    "game:meal-ingredient-soup-primary-gelatin-ebony":                          "Dattelpflaumen-Gelatine",
+    "game:meal-ingredient-soup-secondary-gelatin-ebony":                        "Dattelpflaumen-Gelatine",
+    "game:meal-ingredient-stew-primary-gelatin-ebony":                          "Dattelpflaumen-Gelatine",
+    "game:meal-ingredient-stew-secondary-gelatin-ebony":                        "Dattelpflaumen-Gelatine",
+
+    "outstandingebony:recipeingredient-item-strongspiritportion-ebony-insturmentalcase":  "gealtertem Dattelpflaumenbrand",
+    "outstandingebony:recipeingredient-item-strongspiritportion-ebony":                   "gealtertem Dattelpflaumenbrand",
+    "game:recipeingredient-item-strongspiritportion-ebony-insturmentalcase":              "gealtertem Dattelpflaumenbrand",
+    "game:recipeingredient-item-strongspiritportion-ebony":                               "gealtertem Dattelpflaumenbrand",
+    "outstandingebony:recipeingredient-item-strongspiritportion-ebony-topping":           "gealtertem Dattelpflaumenbrand",
+    "game:meal-ingredient-soup-primary-strongspiritportion-ebony":                        "gealtertem Dattelpflaumenbrand",
+    "game:meal-ingredient-soup-secondary-strongspiritportion-ebony":                      "gealtertem Dattelpflaumenbrand",
+    "game:meal-ingredient-stew-primary-strongspiritportion-ebony":                        "gealtertem Dattelpflaumenbrand",
+    "game:meal-ingredient-stew-secondary-strongspiritportion-ebony":                      "gealtertem Dattelpflaumenbrand",
+
+    "outstandingebony:recipeingredient-item-potentspiritportion-ebony-insturmentalcase":  "Dattelpflaumenqualitätswein",
+    "outstandingebony:recipeingredient-item-potentspiritportion-ebony-topping":           "Dattelpflaumenqualitätswein",
+    "game:recipeingredient-item-potentspiritportion-ebony-insturmentalcase":              "Dattelpflaumenqualitätswein",
+    "game:recipeingredient-item-potentspiritportion-ebony":                               "Dattelpflaumenqualitätswein",
+    "game:meal-ingredient-soup-primary-potentspiritportion-ebony":                        "Dattelpflaumenqualitätswein",
+    "game:meal-ingredient-soup-secondary-potentspiritportion-ebony":                      "Dattelpflaumenqualitätswein",
+    "game:meal-ingredient-stew-primary-potentspiritportion-ebony":                        "Dattelpflaumenqualitätswein",
+    "game:meal-ingredient-stew-secondary-potentspiritportion-ebony":                      "Dattelpflaumenqualitätswein",
+
+    "outstandingebony:recipeingredient-item-strongwineportion-ebony-insturmentalcase":  "starkem Dattelpflaumenwein",
+    "outstandingebony:recipeingredient-item-strongwineportion-ebony-topping":           "starkem Dattelpflaumenwein",
+    "game:recipeingredient-item-strongwineportion-ebony-insturmentalcase":              "starkem Dattelpflaumenwein",
+    "game:recipeingredient-item-strongwineportion-ebony":                               "starkem Dattelpflaumenwein",
+    "game:meal-ingredient-soup-primary-strongwineportion-ebony":                        "starkem Dattelpflaumenwein",
+    "game:meal-ingredient-soup-secondary-strongwineportion-ebony":                      "starkem Dattelpflaumenwein",
+    "game:meal-ingredient-stew-primary-strongwineportion-ebony":                        "starkem Dattelpflaumenwein",
+    "game:meal-ingredient-stew-secondary-strongwineportion-ebony":                      "starkem Dattelpflaumenwein",
+
+    "outstandingebony:recipeingredient-item-potentwineportion-ebony-insturmentalcase":  "erlesenem Dattelpflaumenwein",
+    "outstandingebony:recipeingredient-item-potentwineportion-ebony-topping":           "erlesenem Dattelpflaumenwein",
+    "game:recipeingredient-item-potentwineportion-ebony-insturmentalcase":              "erlesenem Dattelpflaumenwein",
+    "game:recipeingredient-item-potentwineportion-ebony":                               "erlesenem Dattelpflaumenwein",
+    "game:meal-ingredient-soup-primary-potentwineportion-ebony":                        "erlesenem Dattelpflaumenwein",
+    "game:meal-ingredient-soup-secondary-potentwineportion-ebony":                      "erlesenem Dattelpflaumenwein",
+    "game:meal-ingredient-stew-primary-potentwineportion-ebony":                        "erlesenem Dattelpflaumenwein",
+    "game:meal-ingredient-stew-secondary-potentwineportion-ebony":                      "erlesenem Dattelpflaumenwein",
+
+    "outstandingebony:recipeingredient-item-yogurt-ebony-insturmentalcase":    "Dattelpflaumen-Joghurt",
+    "outstandingebony:recipeingredient-item-yogurt-ebony-topping":             "Dattelpflaumen-Joghurt",
+    "game:recipeingredient-item-yogurt-ebony-insturmentalcase":                "Dattelpflaumen-Joghurt",
+    "game:recipeingredient-item-yogurt-ebony":                                 "Dattelpflaumen-Joghurt",
+    "game:meal-ingredient-soup-primary-yogurt-ebony":                          "Dattelpflaumen-Joghurt",
+    "game:meal-ingredient-soup-secondary-yogurt-ebony":                        "Dattelpflaumen-Joghurt",
+    "game:meal-ingredient-stew-primary-yogurt-ebony":                          "Dattelpflaumen-Joghurt",
+    "game:meal-ingredient-stew-secondary-yogurt-ebony":                        "Dattelpflaumen-Joghurt",
+
+    "outstandingebony:recipeingredient-item-fruitsyrupportion-ebony-insturmentalcase":    "Dattelpflaumensirup",
+    "outstandingebony:recipeingredient-item-fruitsyrupportion-ebony-topping":             "Dattelpflaumensirup",
+    "game:recipeingredient-item-fruitsyrupportion-ebony-insturmentalcase":                "Dattelpflaumensirup",
+    "game:recipeingredient-item-fruitsyrupportion-ebony":                                 "Dattelpflaumensirup",
+    "game:meal-ingredient-soup-primary-fruitsyrupportion-ebony":                          "Dattelpflaumensirup",
+    "game:meal-ingredient-soup-secondary-fruitsyrupportion-ebony":                        "Dattelpflaumensirup",
+    "game:meal-ingredient-stew-primary-fruitsyrupportion-ebony":                          "Dattelpflaumensirup",
+    "game:meal-ingredient-stew-secondary-fruitsyrupportion-ebony":                        "Dattelpflaumensirup",
+
+    "outstandingebony:recipeingredient-item-pressedmash-ebony-insturmentalcase":    "gepressten Dattelpflaumen",
+    "outstandingebony:recipeingredient-item-pressedmash-ebony-topping":             "gepressten Dattelpflaumen",
+    "game:recipeingredient-item-pressedmash-ebony-insturmentalcase":                "gepressten Dattelpflaumen",
+    "game:recipeingredient-item-pressedmash-ebony":                                 "gepressten Dattelpflaumen",
+    "game:meal-ingredient-soup-primary-pressedmash-ebony":                          "gepressten Dattelpflaumen",
+    "game:meal-ingredient-soup-secondary-pressedmash-ebony":                        "gepressten Dattelpflaumen",
+    "game:meal-ingredient-stew-primary-pressedmash-ebony":                          "gepressten Dattelpflaumen",
+    "game:meal-ingredient-stew-secondary-pressedmash-ebony":                        "gepressten Dattelpflaumen",
+
+    //Pies
+
+    "pie-single-outstandingebony:fruit-ebony-raw":       "Ungebackene Dattelpflaumenpastete",
+    "pie-single-outstandingebony:fruit-ebony-partbaked": "Halbgebackene Dattelpflaumenpastete",
+    "pie-single-outstandingebony:fruit-ebony-perfect":   "Dattelpflaumenpastete",
+    "pie-single-outstandingebony:fruit-ebony-charred":   "Angebrannte Dattelpflaumenpastete",
+
+    //EF Pies
+
+    "pie-single-outstandingebony:dryfruit-ebony-raw":       "Ungebackene getrocknete Dattelpflaumenpastete",
+    "pie-single-outstandingebony:dryfruit-ebony-partbaked": "Halbgebackene getrocknete Dattelpflaumenpastete",
+    "pie-single-outstandingebony:dryfruit-ebony-perfect":   "Getrocknete Dattelpflaumenpastete",
+    "pie-single-outstandingebony:dryfruit-ebony-charred":   "Angebrannte getrocknete Dattelpflaumenpastete",
+
+    "pie-single-outstandingebony:candiedfruit-ebony-raw":       "Ungebackene kandierte Dattelpflaumenpastete",
+    "pie-single-outstandingebony:candiedfruit-ebony-partbaked": "Halbgebackene kandierte Dattelpflaumenpastete",
+    "pie-single-outstandingebony:candiedfruit-ebony-perfect":   "Kandierte Dattelpflaumenpastete",
+    "pie-single-outstandingebony:candiedfruit-ebony-charred":   "Angebrannte kandierte Dattelpflaumenpastete",
+
+    "pie-single-outstandingebony:gelatin-ebony-raw":       "Ungebackene Dattelpflaumenmarmeladenpastete",
+    "pie-single-outstandingebony:gelatin-ebony-partbaked": "Halbgebackene Dattelpflaumenmarmeladenpastete",
+    "pie-single-outstandingebony:gelatin-ebony-perfect":   "Dattelpflaumenmarmeladenpastete",
+    "pie-single-outstandingebony:gelatin-ebony-charred":   "Angebrannte Dattelpflaumenmarmeladenpastete",
+    
+    //Item Descriptions
+
+    "itemdesc-fruit-ebony": "Auch als 'Jackal Berry' bekannt.",
+    "itemdesc-pressedmash-ebony": "Grob gepresste Früchte. Nicht zu appetitlich aussehend, aber einige Tiere könnten dies trotzdem essen.",
+
+    "itemdesc-candiedfruit-*": "Die süßeste aller Leckerein! Wenn du sie isst fühlst du dich besser als jemals zuvor.",
+    "itemdesc-dryfruit-*": "In einen sehr haltbaren Zustand gebacken.",
+    "itemdesc-yogurt-*": "Fruchtig und cremig!",
+    
+    //Creative Tab
+
+    "game:tabname-incredibleedibles": "Wunderbares Essbares"
+}
