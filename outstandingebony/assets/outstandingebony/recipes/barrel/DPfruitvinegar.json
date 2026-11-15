@@ -1,0 +1,12 @@
+[
+    {
+        "enabled": false,
+        "code": "DPFruitVinegar",
+        "sealHours": 336,
+        "ingredients": [
+            { "type": "item", "code": "game:water", "litres": 5 },
+            { "type": "item", "code": "outstandingebony:pressedmash-ebony", "quantity": 5 }
+        ],
+        "output": { "type": "item", "code": "dairyplus:fruitvinegar", "litres": 5 }
+    }
+]

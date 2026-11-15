@@ -1,0 +1,9 @@
+[
+    {
+        "dependsOn": [ { "modid": "dairyplus" } ],
+        "file": "outstandingebony:recipes/barrel/DPfruitvinegar",
+        "op": "replace",
+        "path": "/0/enabled",
+        "value": true
+    }
+]
