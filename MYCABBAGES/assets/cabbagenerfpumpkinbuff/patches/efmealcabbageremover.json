@@ -60,90 +60,90 @@
     	"path": "/ingredients/5/validStacks/0",
     	"file": "game:recipes/cooking/meatystew.json",
     	"side": "Server",
-    	"dependsOn": [{"modID": "efmealsmodule"}]
+    	"dependsOn": [{"modID": "expandedfoods"}]
   	},
 	{
     	"op": "remove",
     	"path": "/ingredients/6/validStacks/0",
     	"file": "game:recipes/cooking/meatystew.json",
     	"side": "Server",
-    	"dependsOn": [{"modID": "efmealsmodule"}]
+    	"dependsOn": [{"modID": "expandedfoods"}]
   	},
 	{
     	"op": "remove",
     	"path": "/ingredients/3/validStacks/0",
     	"file": "game:recipes/cooking/porridge.json",
     	"side": "Server",
-    	"dependsOn": [{"modID": "efmealsmodule"}]
+    	"dependsOn": [{"modID": "expandedfoods"}]
   	},
 	{
     	"op": "remove",
     	"path": "/ingredients/4/validStacks/0",
     	"file": "game:recipes/cooking/porridge.json",
     	"side": "Server",
-    	"dependsOn": [{"modID": "efmealsmodule"}]
+    	"dependsOn": [{"modID": "expandedfoods"}]
   	},
 	{
     	"op": "remove",
     	"path": "/ingredients/5/validStacks/0",
     	"file": "game:recipes/cooking/scrambledeggs.json",
     	"side": "Server",
-    	"dependsOn": [{"modID": "efmealsmodule"}]
+    	"dependsOn": [{"modID": "expandedfoods"}]
   	},
 	{
     	"op": "remove",
     	"path": "/ingredients/6/validStacks/0",
     	"file": "game:recipes/cooking/scrambledeggs.json",
     	"side": "Server",
-    	"dependsOn": [{"modID": "efmealsmodule"}]
+    	"dependsOn": [{"modID": "expandedfoods"}]
   	},
 	{
     	"op": "remove",
     	"path": "/ingredients/1/validStacks/0",
     	"file": "game:recipes/cooking/soup.json",
     	"side": "Server",
-    	"dependsOn": [{"modID": "efmealsmodule"}]
+    	"dependsOn": [{"modID": "expandedfoods"}]
   	},
 	{
     	"op": "remove",
     	"path": "/ingredients/2/validStacks/0",
     	"file": "game:recipes/cooking/soup.json",
     	"side": "Server",
-    	"dependsOn": [{"modID": "efmealsmodule"}]
+    	"dependsOn": [{"modID": "expandedfoods"}]
   	},
 	{
     	"op": "remove",
     	"path": "/ingredients/3/validStacks/0",
     	"file": "game:recipes/cooking/soup.json",
     	"side": "Server",
-    	"dependsOn": [{"modID": "efmealsmodule"}]
+    	"dependsOn": [{"modID": "expandedfoods"}]
   	},
 	{
     	"op": "remove",
     	"path": "/ingredients/0/validStacks/0",
     	"file": "game:recipes/cooking/vegetablestew.json",
     	"side": "Server",
-    	"dependsOn": [{"modID": "efmealsmodule"}]
+    	"dependsOn": [{"modID": "expandedfoods"}]
   	},
 	{
     	"op": "remove",
     	"path": "/ingredients/1/validStacks/0",
     	"file": "game:recipes/cooking/vegetablestew.json",
     	"side": "Server",
-    	"dependsOn": [{"modID": "efmealsmodule"}]
+    	"dependsOn": [{"modID": "expandedfoods"}]
   	},
 	{
     	"op": "remove",
     	"path": "/ingredients/2/validStacks/0",
     	"file": "game:recipes/cooking/vegetablestew.json",
     	"side": "Server",
-    	"dependsOn": [{"modID": "efmealsmodule"}]
+    	"dependsOn": [{"modID": "expandedfoods"}]
   	},
 	{
     	"op": "remove",
     	"path": "/ingredients/3/validStacks/0",
     	"file": "game:recipes/cooking/vegetablestew.json",
     	"side": "Server",
-    	"dependsOn": [{"modID": "efmealsmodule"}]
+    	"dependsOn": [{"modID": "expandedfoods"}]
   	}
 ]

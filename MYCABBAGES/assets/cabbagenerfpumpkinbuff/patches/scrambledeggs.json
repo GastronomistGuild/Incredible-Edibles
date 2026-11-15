@@ -8,7 +8,7 @@
     ],
     "file": "game:recipes/cooking/scrambledeggs.json",
     "side": "Server",
-    "dependsOn": [{"modID": "efmealsmodule", "invert": true}]
+    "dependsOn": [{"modID": "expandedfoods", "invert": true}]
   },
   {
     "op": "replace",
@@ -16,7 +16,7 @@
     "value": "cabbagenerfpumpkinbuff:choppedvegetable-cabbage",
     "file": "game:recipes/cooking/scrambledeggs.json",
     "side": "Server",
-    "dependsOn": [{"modID": "efmealsmodule", "invert": true}]
+    "dependsOn": [{"modID": "expandedfoods", "invert": true}]
   },
   {
     "op": "addmerge",
@@ -27,7 +27,7 @@
     ],
     "file": "game:recipes/cooking/scrambledeggs.json",
     "side": "Server",
-    "dependsOn": [{"modID": "efmealsmodule", "invert": true}]
+    "dependsOn": [{"modID": "expandedfoods", "invert": true}]
   },
   {
     "op": "replace",
@@ -35,6 +35,6 @@
     "value": "cabbagenerfpumpkinbuff:choppedvegetable-cabbage",
     "file": "game:recipes/cooking/scrambledeggs.json",
     "side": "Server",
-    "dependsOn": [{"modID": "efmealsmodule", "invert": true}]
+    "dependsOn": [{"modID": "expandedfoods", "invert": true}]
   }
 ]

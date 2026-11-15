@@ -1,0 +1,22 @@
+{
+    "incrediblegourd:item-pumpkinseed-raw": "Rohe Kürbissamen",
+    "incrediblegourd:item-pumpkinseed-roasted": "Geröstete Kürbissamen",
+
+    "game:recipeingredient-item-pumpkinseed-raw": "Kürbissamen",
+    "game:recipeingredient-item-pumpkinseed-raw-insturmentalcase": "Kürbissamen",
+    "recipeingredient-item-pumpkinseed-raw": "Kürbissamen",
+    "recipeingredient-item-pumpkinseed-raw-insturmentalcase": "Kürbissamen",
+
+    "game:recipeingredient-item-pumpkinseed-roasted": "Kürbissamen",
+    "game:recipeingredient-item-pumpkinseed-roasted-insturmentalcase": "Kürbissamen",
+    "recipeingredient-item-pumpkinseed-roasted": "Kürbissamen",
+    "recipeingredient-item-pumpkinseed-roasted-insturmentalcase": "Kürbissamen",
+
+    "expandedfoods:item-candy-pumpkinseed-raw": "Kandierte Kürbiskerne",
+    "expandedfoods:item-candy-roastedpumpkinseed-raw": "Geröstete kandierte Kürbiskerne",
+
+    "incrediblegourd:itemdesc-pumpkinseed-raw": "Ein knuspriger Snack, der sich im nassen Kürbisfleisch versteckt. Röste sie, damit sie noch besser werden!",
+    "incrediblegourd:itemdesc-pumpkinseed-roasted": "Ein knuspriger Snack, der durch Hitze und Zeit noch besser wurde.",
+
+    "game:tabname-incredibleedibles": "Wunderbares Essbares"
+}
