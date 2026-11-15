@@ -12,3 +12,8 @@
 1.0.3
 -Fixed some potential compatibility overlap issues with other mods
 -Added topping support for candied fruit, syrup, and gelatin
+
+1.0.4
+-German lang contributed by Marc-Iceblade
+-Food shelves compat contributed by Droseran
+-Dairy Plus fruit vinegar compat
