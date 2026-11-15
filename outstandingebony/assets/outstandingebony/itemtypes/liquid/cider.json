@@ -33,14 +33,14 @@
                 "foodcategorybytype": {
                     "*": "Fruit"
                 }
+            },
+            "NutritionPropsPerLitreWhenInMeal": {
+                "satiety": 120,
+                "intoxication": 0.05,
+                "foodcategory": "Fruit"
             }
         },
-        "hydration": 700,
-        "NutritionPropsPerLitreWhenInMeal": {
-            "satiety": 120,
-            "intoxication": 0.05,
-            "foodcategory": "Fruit"
-        }
+        "hydration": 700
     },
     "shape": { "base": "game:item/liquid" },
     "texturebytype": {
